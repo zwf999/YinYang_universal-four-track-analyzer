@@ -1,32 +1,24 @@
 from core_engine import calculate_Omega
 
-def load_pi_digits(filename='data/pi_digits_1m.txt'):
-    try:
-        with open(filename, 'r') as f:
-            digits = f.read().strip()
-        return [int(c) for c in digits if c.isdigit()]
-    except FileNotFoundError:
-        print("❌ 错误: 未找到 data/pi_digits_1m.txt 文件")
-        print("👉 请先在 data/ 目录下上传圆周率数据")
-        return None
-
-if __name__ == "__main__":
-    print("🔬 FD-JTMS v1.0 启动...")
+def main():
+    print("🔬 FD-JTMS v2.0 启动...")
     print("正在分析圆周率π (1,000,000位)...\n")
     
+    # 加载数据
     pi_digits = load_pi_digits()
-    if pi_digits is None:
-        exit(1)
     
+    # 计算四维Ω值
     Omega, Delta_R = calculate_Omega(pi_digits)
     
-    print(f"✅ 验证结果:")
+    # 输出结果
+    print("✅ 验证结果:")
     print(f"  Ω值       = {Omega:.3f}")
     print(f"  ΔR_小大   = {Delta_R['小大']:.4f}")
     print(f"  ΔR_上下   = {Delta_R['上下']:.4f}")
     print(f"  ΔR_奇偶   = {Delta_R['奇偶']:.4f}")
     print(f"  ΔR_AB     = {Delta_R['AB']:.4f}")
 
+    # 结论判断
     if Omega >= 0.15:
         print(f"\n🌟 结论: π序列存在强拓扑结构！符合'阴阳不均质'理论。")
     elif Omega >= 0.01:
@@ -34,5 +26,5 @@ if __name__ == "__main__":
     else:
         print(f"\n🔸 结论: 未检测到显著结构（随机性主导）。")
 
-
-
+if __name__ == "__main__":
+    main()
