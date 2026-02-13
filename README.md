@@ -130,7 +130,7 @@ python new_disease_predictor.py
 ### 引用格式
 ```
 @software{YinYang_universal-four-track-analyzer,
-  author = {赵文峰}
+  author = {赵文锋}
   title = {通用四轨道分析系统},
   year = {2026},
   url = {https://github.com/zwf999/YinYang_universal-four-track-analyzer}
@@ -159,6 +159,6 @@ MIT License
 
 ## 联系方式
 
-- **作者**：赵文峰
+- **作者**：赵文锋
 - **邮箱**：78111333@qq.com
 - **GitHub**：https://github.com/zwf999/YinYang_universal-four-track-analyzer
