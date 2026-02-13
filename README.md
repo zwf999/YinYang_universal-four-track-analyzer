@@ -33,7 +33,7 @@
 ## 项目结构
 
 ```
-iversal-four-track-analyzer/
+YinYang_universal-four-track-analyzer/
 ├── README.md                   # 项目说明
 ├── .gitignore                  # Git忽略规则
 ├── requirements.txt            # 依赖包列表
