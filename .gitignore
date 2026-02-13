@@ -11,6 +11,13 @@ analysis_results/
 reports/
 results/
 
+# Large files
+batch_directory_results.json
+
+# Data files
+data/*.txt
+data/**/*.txt
+
 # IDE
 .vscode/
 .idea/
