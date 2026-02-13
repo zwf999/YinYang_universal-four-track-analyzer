@@ -1,0 +1,20 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cache
+cache/
+
+# Analysis results
+analysis_results/
+reports/
+results/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
