@@ -134,7 +134,6 @@ python new_disease_predictor.py
   title = {通用四轨道分析系统},
   year = {2026},
   url = https://github.com/zwf999/YinYang_universal-four-track-analyzer
-}
 ```
 
 ## 技术创新
