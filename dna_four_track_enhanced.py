@@ -1060,30 +1060,31 @@ def main():
     # 创建分析系统
     system = DNAFourTrackSystem()
     
-    # 示例DNA序列
+    # 示例DNA序列（更长的序列，以便更好地测试零假设验证）
     example_sequences = {
-        "启动子序列": "ATCGATCGATCGATCGATCG",
-        "高GC区域": "GGGCCCGGGCCCGGGCCCGG",
-        "重复序列": "AGCTAGCTAGCTAGCTAGCT",
-        "回文序列": "GAATTCCTTAAGGAATTCCTTAAG"
+        "启动子序列": "ATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCG",
+        "高GC区域": "GGGCCCGGGCCCGGGCCCGGGGGCCCGGGCCCGGGCCCGGGCC",
+        "重复序列": "AGCTAGCTAGCTAGCTAGCTAGCTAGCTAGCTAGCTAGCTAGCT",
+        "回文序列": "GAATTCCTTAAGGAATTCCTTAAGGAATTCCTTAAGGAATTCCTTAAG"
     }
     
     print("📋 示例序列:")
-        for i, (name, seq) in enumerate(example_sequences.items(), 1):
-            print(f"  {i}. {name}: {seq}")
-        print()
+    for i, (name, seq) in enumerate(example_sequences.items(), 1):
+        print(f"  {i}. {name}: {seq}")
+    print()
+    
+    while True:
+        print("\n请选择操作:")
+        print("  1. 分析示例序列")
+        print("  2. 输入自定义DNA序列")
+        print("  3. 批量分析所有示例")
+        print("  4. 从文件加载DNA序列")
+        print("  5. 批量分析目录中的DNA文件")
+        print("  6. 分析序列并执行零假设验证")
+        print("  7. 分析示例序列并执行零假设验证")
+        print("  8. 退出")
         
-        while True:
-            print("\n请选择操作:")
-            print("  1. 分析示例序列")
-            print("  2. 输入自定义DNA序列")
-            print("  3. 批量分析所有示例")
-            print("  4. 从文件加载DNA序列")
-            print("  5. 批量分析目录中的DNA文件")
-            print("  6. 分析序列并执行零假设验证")
-            print("  7. 退出")
-        
-        choice = input("请输入选择 (1-7): ").strip()
+        choice = input("请输入选择 (1-8): ").strip()
         
         if choice == '1':
             print("\n选择要分析的示例序列:")
@@ -1305,6 +1306,70 @@ def main():
                 system.save_results({name: result}, filename)
         
         elif choice == '7':
+            print("\n分析示例序列并执行零假设验证")
+            print("选择要分析的示例序列:")
+            for i, name in enumerate(example_sequences.keys(), 1):
+                print(f"  {i}. {name}")
+            
+            try:
+                seq_choice = int(input("请输入编号 (1-4): ").strip()) - 1
+                seq_names = list(example_sequences.keys())
+                if 0 <= seq_choice < len(seq_names):
+                    name = seq_names[seq_choice]
+                    seq = example_sequences[name]
+                    
+                    print(f"\n🔬 开始分析 '{name}' 并执行零假设验证...")
+                    print(f"序列长度: {len(seq)} bp")
+                    print("这可能需要一些时间，因为要生成和分析1000个随机序列...")
+                    
+                    result = system.analyze_with_null_hypothesis(seq, name)
+                    
+                    if 'error' in result:
+                        print(f"❌ 分析失败: {result['error']}")
+                        continue
+                    
+                    # 打印标准分析报告
+                    system.print_report(result)
+                    
+                    # 打印零假设验证结果
+                    if 'null_hypothesis' in result:
+                        print("\n" + "="*60)
+                        print("🔍 零假设验证结果")
+                        print("="*60)
+                        
+                        null_result = result['null_hypothesis']
+                        print(f"生成的随机序列数量: {null_result['n_random']}")
+                        print()
+                        
+                        for track, stats in null_result['random_stats'].items():
+                            print(f"\n轨道 {track}:")
+                            print(f"  目标序列:")
+                            print(f"    对称性: {stats['target']['symmetry']:.3f}")
+                            print(f"    配对率: {stats['target']['pair_ratio']:.3f}")
+                            print(f"  随机序列:")
+                            print(f"    平均对称性: {stats['random']['mean_symmetry']:.3f} ± {stats['random']['std_symmetry']:.3f}")
+                            print(f"    平均配对率: {stats['random']['mean_pair_ratio']:.3f} ± {stats['random']['std_pair_ratio']:.3f}")
+                            print(f"  显著性检验:")
+                            print(f"    对称性 z值: {stats['significance']['z_symmetry']:.2f}, p值: {stats['significance']['p_symmetry']}")
+                            print(f"    配对率 z值: {stats['significance']['z_pair_ratio']:.2f}, p值: {stats['significance']['p_pair_ratio']}")
+                            print(f"  数学常数关联:")
+                            print(f"    π相似度: {stats['math_constants']['pi']['similarity']:.3f}")
+                            print(f"    φ相似度: {stats['math_constants']['phi']['similarity']:.3f}")
+                            print(f"    e相似度: {stats['math_constants']['e']['similarity']:.3f}")
+                        
+                        print("="*60)
+                    
+                    # 保存选项
+                    save = input("\n是否保存结果到文件? (y/n): ").strip().lower()
+                    if save == 'y':
+                        filename = f"result_with_null_{name}.json"
+                        system.save_results({name: result}, filename)
+                else:
+                    print("❌ 无效的选择")
+            except ValueError:
+                print("❌ 请输入有效数字")
+        
+        elif choice == '8':
             print("\n谢谢使用，再见！")
             break
         
