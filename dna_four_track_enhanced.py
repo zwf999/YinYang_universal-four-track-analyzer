@@ -869,6 +869,180 @@ class DNAFourTrackSystem:
             return sequences
         except Exception as e:
             raise Exception(f"读取目录失败: {e}")
+    
+    def generate_random_dna(self, length: int) -> str:
+        """生成指定长度的随机DNA序列"""
+        import random
+        bases = ['A', 'C', 'G', 'T']
+        return ''.join(random.choice(bases) for _ in range(length))
+    
+    def perform_null_hypothesis_test(self, target_digits: List[int], n_random: int = 1000) -> Dict[str, Any]:
+        """执行零假设验证
+        
+        Args:
+            target_digits: 目标数字序列
+            n_random: 随机序列数量，默认1000
+            
+        Returns:
+            包含零假设验证结果的字典
+        """
+        import statistics
+        import math
+        
+        # 分析目标序列
+        target_analysis = self.analyzer.analyze(target_digits)
+        
+        # 生成随机序列并分析
+        random_results = []
+        for i in range(n_random):
+            # 生成与目标序列长度相同的随机DNA
+            dna_length = len(target_digits) * 2  # 每个数字对应2个碱基
+            random_dna = self.generate_random_dna(dna_length)
+            
+            # 编码并分析
+            encoded = self.encoder.encode(random_dna)
+            random_analysis = self.analyzer.analyze(encoded['digits'])
+            random_results.append(random_analysis)
+        
+        # 计算统计信息
+        stats = {}
+        for track in ['track1', 'track2', 'track3', 'track4']:
+            if track in target_analysis:
+                # 提取目标轨道的关键指标
+                target_symmetry = target_analysis[track]['symmetry']['overall']
+                
+                if track == 'track1':
+                    target_pair_ratio = target_analysis[track]['forward']['symbol_pairs']['ratio']
+                else:
+                    target_pair_ratio = target_analysis[track]['forward']['global_digit_pairs']['ratio']
+                
+                # 提取随机序列的指标
+                random_symmetries = []
+                random_pair_ratios = []
+                
+                for result in random_results:
+                    if track in result:
+                        random_symmetries.append(result[track]['symmetry']['overall'])
+                        
+                        if track == 'track1':
+                            random_pair_ratios.append(result[track]['forward']['symbol_pairs']['ratio'])
+                        else:
+                            random_pair_ratios.append(result[track]['forward']['global_digit_pairs']['ratio'])
+                
+                # 计算统计量
+                mean_symmetry = statistics.mean(random_symmetries)
+                std_symmetry = statistics.stdev(random_symmetries)
+                
+                mean_pair_ratio = statistics.mean(random_pair_ratios)
+                std_pair_ratio = statistics.stdev(random_pair_ratios)
+                
+                # 计算z值和p值（双侧检验）
+                z_symmetry = (target_symmetry - mean_symmetry) / std_symmetry if std_symmetry > 0 else 0
+                z_pair_ratio = (target_pair_ratio - mean_pair_ratio) / std_pair_ratio if std_pair_ratio > 0 else 0
+                
+                # 简化的p值计算（基于正态分布）
+                def calculate_p_value(z):
+                    # 简化的双侧p值计算
+                    if abs(z) > 3.29:
+                        return '< 0.001'
+                    elif abs(z) > 2.58:
+                        return '< 0.01'
+                    elif abs(z) > 1.96:
+                        return '< 0.05'
+                    else:
+                        return '> 0.05'
+                
+                p_symmetry = calculate_p_value(z_symmetry)
+                p_pair_ratio = calculate_p_value(z_pair_ratio)
+                
+                # 数学常数关联分析
+                math_constants = self._analyze_math_constants(target_digits)
+                
+                stats[track] = {
+                    'target': {
+                        'symmetry': target_symmetry,
+                        'pair_ratio': target_pair_ratio
+                    },
+                    'random': {
+                        'mean_symmetry': mean_symmetry,
+                        'std_symmetry': std_symmetry,
+                        'mean_pair_ratio': mean_pair_ratio,
+                        'std_pair_ratio': std_pair_ratio
+                    },
+                    'significance': {
+                        'z_symmetry': z_symmetry,
+                        'p_symmetry': p_symmetry,
+                        'z_pair_ratio': z_pair_ratio,
+                        'p_pair_ratio': p_pair_ratio
+                    },
+                    'math_constants': math_constants
+                }
+        
+        return {
+            'target_analysis': target_analysis,
+            'random_stats': stats,
+            'n_random': n_random
+        }
+    
+    def _analyze_math_constants(self, digits: List[int]) -> Dict[str, Any]:
+        """分析数字序列与数学常数的关联"""
+        import math
+        
+        # 提取数学常数的数字
+        pi_digits = [int(d) for d in str(math.pi).replace('.', '')[:20]]
+        phi_digits = [int(d) for d in str((1 + math.sqrt(5)) / 2).replace('.', '')[:20]]
+        e_digits = [int(d) for d in str(math.e).replace('.', '')[:20]]
+        
+        # 计算相似度（简单的匹配率）
+        def calculate_similarity(seq1, seq2):
+            min_len = min(len(seq1), len(seq2))
+            matches = sum(1 for a, b in zip(seq1[:min_len], seq2[:min_len]) if a == b)
+            return matches / min_len
+        
+        # 计算数字分布相似度
+        def calculate_distribution_similarity(seq1, seq2):
+            from collections import Counter
+            
+            cnt1 = Counter(seq1)
+            cnt2 = Counter(seq2)
+            
+            total = set(seq1 + seq2)
+            distance = 0
+            
+            for d in total:
+                p1 = cnt1.get(d, 0) / len(seq1) if seq1 else 0
+                p2 = cnt2.get(d, 0) / len(seq2) if seq2 else 0
+                distance += abs(p1 - p2)
+            
+            return 1 - distance / 2  # 归一化到[0,1]
+        
+        return {
+            'pi': {
+                'similarity': calculate_similarity(digits, pi_digits),
+                'distribution_similarity': calculate_distribution_similarity(digits, pi_digits)
+            },
+            'phi': {
+                'similarity': calculate_similarity(digits, phi_digits),
+                'distribution_similarity': calculate_distribution_similarity(digits, phi_digits)
+            },
+            'e': {
+                'similarity': calculate_similarity(digits, e_digits),
+                'distribution_similarity': calculate_distribution_similarity(digits, e_digits)
+            }
+        }
+    
+    def analyze_with_null_hypothesis(self, dna_sequence: str, name: str = "") -> Dict[str, Any]:
+        """分析DNA序列并执行零假设验证"""
+        # 标准分析
+        result = self.analyze(dna_sequence, name)
+        
+        # 执行零假设验证
+        if 'encoding' in result:
+            digits = result['encoding']['digits']
+            null_hypothesis_result = self.perform_null_hypothesis_test(digits)
+            result['null_hypothesis'] = null_hypothesis_result
+        
+        return result
 
 # ============================================================================
 # 第四部分：主程序
@@ -895,20 +1069,21 @@ def main():
     }
     
     print("📋 示例序列:")
-    for i, (name, seq) in enumerate(example_sequences.items(), 1):
-        print(f"  {i}. {name}: {seq}")
-    print()
-    
-    while True:
-        print("\n请选择操作:")
-        print("  1. 分析示例序列")
-        print("  2. 输入自定义DNA序列")
-        print("  3. 批量分析所有示例")
-        print("  4. 从文件加载DNA序列")
-        print("  5. 批量分析目录中的DNA文件")
-        print("  6. 退出")
+        for i, (name, seq) in enumerate(example_sequences.items(), 1):
+            print(f"  {i}. {name}: {seq}")
+        print()
         
-        choice = input("请输入选择 (1-6): ").strip()
+        while True:
+            print("\n请选择操作:")
+            print("  1. 分析示例序列")
+            print("  2. 输入自定义DNA序列")
+            print("  3. 批量分析所有示例")
+            print("  4. 从文件加载DNA序列")
+            print("  5. 批量分析目录中的DNA文件")
+            print("  6. 分析序列并执行零假设验证")
+            print("  7. 退出")
+        
+        choice = input("请输入选择 (1-7): ").strip()
         
         if choice == '1':
             print("\n选择要分析的示例序列:")
@@ -1072,6 +1247,64 @@ def main():
                 print(f"❌ 目录不存在: {directory}")
         
         elif choice == '6':
+            print("\n分析序列并执行零假设验证")
+            print("请输入DNA序列 (只包含A,C,G,T):")
+            dna_input = input("DNA序列: ").strip()
+            name = input("序列名称 (可选): ").strip()
+            
+            if not name:
+                name = "自定义序列"
+            
+            if not dna_input:
+                print("❌ 序列不能为空")
+                continue
+            
+            print("\n🔬 开始分析和零假设验证...")
+            print("这可能需要一些时间，因为要生成和分析1000个随机序列...")
+            
+            result = system.analyze_with_null_hypothesis(dna_input, name)
+            
+            if 'error' in result:
+                print(f"❌ 分析失败: {result['error']}")
+                continue
+            
+            # 打印标准分析报告
+            system.print_report(result)
+            
+            # 打印零假设验证结果
+            if 'null_hypothesis' in result:
+                print("\n" + "="*60)
+                print("🔍 零假设验证结果")
+                print("="*60)
+                
+                null_result = result['null_hypothesis']
+                print(f"生成的随机序列数量: {null_result['n_random']}")
+                print()
+                
+                for track, stats in null_result['random_stats'].items():
+                    print(f"\n轨道 {track}:")
+                    print(f"  目标序列:")
+                    print(f"    对称性: {stats['target']['symmetry']:.3f}")
+                    print(f"    配对率: {stats['target']['pair_ratio']:.3f}")
+                    print(f"  随机序列:")
+                    print(f"    平均对称性: {stats['random']['mean_symmetry']:.3f} ± {stats['random']['std_symmetry']:.3f}")
+                    print(f"    平均配对率: {stats['random']['mean_pair_ratio']:.3f} ± {stats['random']['std_pair_ratio']:.3f}")
+                    print(f"  显著性检验:")
+                    print(f"    对称性 z值: {stats['significance']['z_symmetry']:.2f}, p值: {stats['significance']['p_symmetry']}")
+                    print(f"    配对率 z值: {stats['significance']['z_pair_ratio']:.2f}, p值: {stats['significance']['p_pair_ratio']}")
+                    print(f"  数学常数关联:")
+                    print(f"    π相似度: {stats['math_constants']['pi']['similarity']:.3f}")
+                    print(f"    φ相似度: {stats['math_constants']['phi']['similarity']:.3f}")
+                    print(f"    e相似度: {stats['math_constants']['e']['similarity']:.3f}")
+                
+                print("="*60)
+            
+            save = input("\n是否保存结果到文件? (y/n): ").strip().lower()
+            if save == 'y':
+                filename = f"result_with_null_{name}.json"
+                system.save_results({name: result}, filename)
+        
+        elif choice == '7':
             print("\n谢谢使用，再见！")
             break
         
