@@ -1,0 +1,1038 @@
+{
+  "回文序列": {
+    "metadata": {
+      "name": "回文序列",
+      "timestamp": "2026-02-15 18:07:58",
+      "length": 48
+    },
+    "encoding": {
+      "original": "GAATTCCTTAAGGAATTCCTTAAGGAATTCCTTAAGGAATTCCTTAAG",
+      "digits": [
+        2,
+        3,
+        6,
+        6,
+        3,
+        2,
+        2,
+        3,
+        6,
+        6,
+        3,
+        2,
+        2,
+        3,
+        6,
+        6,
+        3,
+        2,
+        2,
+        3,
+        6,
+        6,
+        3,
+        2
+      ],
+      "details": [
+        {
+          "position": 0,
+          "bases": "GA",
+          "code": 2,
+          "direction": "reverse",
+          "direction_mark": "←"
+        },
+        {
+          "position": 2,
+          "bases": "AT",
+          "code": 3,
+          "direction": "forward",
+          "direction_mark": ""
+        },
+        {
+          "position": 4,
+          "bases": "TC",
+          "code": 6,
+          "direction": "reverse",
+          "direction_mark": "←"
+        },
+        {
+          "position": 6,
+          "bases": "CT",
+          "code": 6,
+          "direction": "forward",
+          "direction_mark": ""
+        },
+        {
+          "position": 8,
+          "bases": "TA",
+          "code": 3,
+          "direction": "reverse",
+          "direction_mark": "←"
+        },
+        {
+          "position": 10,
+          "bases": "AG",
+          "code": 2,
+          "direction": "forward",
+          "direction_mark": ""
+        },
+        {
+          "position": 12,
+          "bases": "GA",
+          "code": 2,
+          "direction": "reverse",
+          "direction_mark": "←"
+        },
+        {
+          "position": 14,
+          "bases": "AT",
+          "code": 3,
+          "direction": "forward",
+          "direction_mark": ""
+        },
+        {
+          "position": 16,
+          "bases": "TC",
+          "code": 6,
+          "direction": "reverse",
+          "direction_mark": "←"
+        },
+        {
+          "position": 18,
+          "bases": "CT",
+          "code": 6,
+          "direction": "forward",
+          "direction_mark": ""
+        },
+        {
+          "position": 20,
+          "bases": "TA",
+          "code": 3,
+          "direction": "reverse",
+          "direction_mark": "←"
+        },
+        {
+          "position": 22,
+          "bases": "AG",
+          "code": 2,
+          "direction": "forward",
+          "direction_mark": ""
+        },
+        {
+          "position": 24,
+          "bases": "GA",
+          "code": 2,
+          "direction": "reverse",
+          "direction_mark": "←"
+        },
+        {
+          "position": 26,
+          "bases": "AT",
+          "code": 3,
+          "direction": "forward",
+          "direction_mark": ""
+        },
+        {
+          "position": 28,
+          "bases": "TC",
+          "code": 6,
+          "direction": "reverse",
+          "direction_mark": "←"
+        },
+        {
+          "position": 30,
+          "bases": "CT",
+          "code": 6,
+          "direction": "forward",
+          "direction_mark": ""
+        },
+        {
+          "position": 32,
+          "bases": "TA",
+          "code": 3,
+          "direction": "reverse",
+          "direction_mark": "←"
+        },
+        {
+          "position": 34,
+          "bases": "AG",
+          "code": 2,
+          "direction": "forward",
+          "direction_mark": ""
+        },
+        {
+          "position": 36,
+          "bases": "GA",
+          "code": 2,
+          "direction": "reverse",
+          "direction_mark": "←"
+        },
+        {
+          "position": 38,
+          "bases": "AT",
+          "code": 3,
+          "direction": "forward",
+          "direction_mark": ""
+        },
+        {
+          "position": 40,
+          "bases": "TC",
+          "code": 6,
+          "direction": "reverse",
+          "direction_mark": "←"
+        },
+        {
+          "position": 42,
+          "bases": "CT",
+          "code": 6,
+          "direction": "forward",
+          "direction_mark": ""
+        },
+        {
+          "position": 44,
+          "bases": "TA",
+          "code": 3,
+          "direction": "reverse",
+          "direction_mark": "←"
+        },
+        {
+          "position": 46,
+          "bases": "AG",
+          "code": 2,
+          "direction": "forward",
+          "direction_mark": ""
+        }
+      ],
+      "stats": {
+        "length": 48,
+        "gc_content": 0.3333333333333333,
+        "gc_count": 16,
+        "at_count": 32,
+        "digit_counts": {
+          "2": 8,
+          "3": 8,
+          "6": 8
+        },
+        "unique_digits": 3,
+        "encoded_length": 24
+      }
+    },
+    "analysis": {
+      "track1": {
+        "forward": {
+          "window_count": 3,
+          "symbol_pairs": {
+            "valid": 0,
+            "total": 24,
+            "ratio": 0.0
+          },
+          "digit_pairs": {
+            "valid": 0,
+            "total": 12,
+            "ratio": 0.0
+          },
+          "global_digit_pairs": {
+            "valid": 0,
+            "total": 12,
+            "ratio": 0.0,
+            "pair_types": {},
+            "unpaired": {
+              "2": 8,
+              "3": 8,
+              "6": 8
+            }
+          },
+          "yinyang": {
+            "yang": 24,
+            "yin": 0,
+            "ratio": 0,
+            "yang_percent": 1.0
+          }
+        },
+        "backward": {
+          "window_count": 3,
+          "symbol_pairs": {
+            "valid": 0,
+            "total": 24,
+            "ratio": 0.0
+          },
+          "digit_pairs": {
+            "valid": 0,
+            "total": 12,
+            "ratio": 0.0
+          },
+          "global_digit_pairs": {
+            "valid": 0,
+            "total": 12,
+            "ratio": 0.0,
+            "pair_types": {},
+            "unpaired": {
+              "2": 8,
+              "3": 8,
+              "6": 8
+            }
+          },
+          "yinyang": {
+            "yang": 24,
+            "yin": 0,
+            "ratio": 0,
+            "yang_percent": 1.0
+          }
+        },
+        "symmetry": {
+          "pair_similarity": 1.0,
+          "global_similarity": 1.0,
+          "yang_similarity": 1.0,
+          "overall": 1.0
+        }
+      },
+      "track2": {
+        "forward": {
+          "window_count": 0,
+          "symbol_pairs": {
+            "valid": 0,
+            "total": 0,
+            "ratio": 0
+          },
+          "digit_pairs": {
+            "valid": 0,
+            "total": 0,
+            "ratio": 0
+          },
+          "global_digit_pairs": {
+            "valid": 8,
+            "total": 12,
+            "ratio": 0.6666666666666666,
+            "pair_types": {
+              "C": {
+                "count": 8,
+                "yinyang": "阳"
+              }
+            },
+            "unpaired": {
+              "2": 8
+            }
+          },
+          "yinyang": {
+            "yang": 16,
+            "yin": 8,
+            "ratio": 2.0,
+            "yang_percent": 0.6666666666666666
+          }
+        },
+        "backward": {
+          "window_count": 0,
+          "symbol_pairs": {
+            "valid": 0,
+            "total": 0,
+            "ratio": 0
+          },
+          "digit_pairs": {
+            "valid": 0,
+            "total": 0,
+            "ratio": 0
+          },
+          "global_digit_pairs": {
+            "valid": 8,
+            "total": 12,
+            "ratio": 0.6666666666666666,
+            "pair_types": {
+              "C": {
+                "count": 8,
+                "yinyang": "阳"
+              }
+            },
+            "unpaired": {
+              "2": 8
+            }
+          },
+          "yinyang": {
+            "yang": 16,
+            "yin": 8,
+            "ratio": 2.0,
+            "yang_percent": 0.6666666666666666
+          }
+        },
+        "symmetry": {
+          "pair_similarity": 1,
+          "global_similarity": 1.0,
+          "yang_similarity": 1.0,
+          "overall": 1.0
+        }
+      },
+      "track3": {
+        "forward": {
+          "window_count": 0,
+          "symbol_pairs": {
+            "valid": 0,
+            "total": 0,
+            "ratio": 0
+          },
+          "digit_pairs": {
+            "valid": 0,
+            "total": 0,
+            "ratio": 0
+          },
+          "global_digit_pairs": {
+            "valid": 0,
+            "total": 12,
+            "ratio": 0.0,
+            "pair_types": {},
+            "unpaired": {
+              "2": 8,
+              "3": 8,
+              "6": 8
+            }
+          },
+          "yinyang": {
+            "yang": 8,
+            "yin": 16,
+            "ratio": 0.5,
+            "yang_percent": 0.3333333333333333
+          }
+        },
+        "backward": {
+          "window_count": 0,
+          "symbol_pairs": {
+            "valid": 0,
+            "total": 0,
+            "ratio": 0
+          },
+          "digit_pairs": {
+            "valid": 0,
+            "total": 0,
+            "ratio": 0
+          },
+          "global_digit_pairs": {
+            "valid": 0,
+            "total": 12,
+            "ratio": 0.0,
+            "pair_types": {},
+            "unpaired": {
+              "2": 8,
+              "3": 8,
+              "6": 8
+            }
+          },
+          "yinyang": {
+            "yang": 8,
+            "yin": 16,
+            "ratio": 0.5,
+            "yang_percent": 0.3333333333333333
+          }
+        },
+        "symmetry": {
+          "pair_similarity": 1,
+          "global_similarity": 1.0,
+          "yang_similarity": 1.0,
+          "overall": 1.0
+        }
+      },
+      "track4": {
+        "forward": {
+          "window_count": 0,
+          "symbol_pairs": {
+            "valid": 0,
+            "total": 0,
+            "ratio": 0
+          },
+          "digit_pairs": {
+            "valid": 0,
+            "total": 0,
+            "ratio": 0
+          },
+          "global_digit_pairs": {
+            "valid": 8,
+            "total": 12,
+            "ratio": 0.6666666666666666,
+            "pair_types": {
+              "三": {
+                "count": 8,
+                "yinyang": "阳"
+              }
+            },
+            "unpaired": {
+              "2": 8
+            }
+          },
+          "yinyang": {
+            "yang": 16,
+            "yin": 8,
+            "ratio": 2.0,
+            "yang_percent": 0.6666666666666666
+          }
+        },
+        "backward": {
+          "window_count": 0,
+          "symbol_pairs": {
+            "valid": 0,
+            "total": 0,
+            "ratio": 0
+          },
+          "digit_pairs": {
+            "valid": 0,
+            "total": 0,
+            "ratio": 0
+          },
+          "global_digit_pairs": {
+            "valid": 8,
+            "total": 12,
+            "ratio": 0.6666666666666666,
+            "pair_types": {
+              "三": {
+                "count": 8,
+                "yinyang": "阳"
+              }
+            },
+            "unpaired": {
+              "2": 8
+            }
+          },
+          "yinyang": {
+            "yang": 16,
+            "yin": 8,
+            "ratio": 2.0,
+            "yang_percent": 0.6666666666666666
+          }
+        },
+        "symmetry": {
+          "pair_similarity": 1,
+          "global_similarity": 1.0,
+          "yang_similarity": 1.0,
+          "overall": 1.0
+        }
+      },
+      "summary": {
+        "best_track": "track2",
+        "worst_track": "track1",
+        "average_symmetry": 1.0,
+        "track_scores": {
+          "track1": {
+            "score": 0.4,
+            "symmetry": 1.0,
+            "pairing": 0.0
+          },
+          "track2": {
+            "score": 0.8,
+            "symmetry": 1.0,
+            "pairing": 0.6666666666666666
+          },
+          "track3": {
+            "score": 0.5333333333333333,
+            "symmetry": 1.0,
+            "pairing": 0.0
+          },
+          "track4": {
+            "score": 0.8,
+            "symmetry": 1.0,
+            "pairing": 0.6666666666666666
+          }
+        }
+      }
+    },
+    "interpretation": {
+      "gc_analysis": [
+        "低GC含量(33.3%)，易于解链"
+      ],
+      "track_insights": {
+        "track1": [
+          "低配对率，可能为随机区域",
+          "检测到3个分析窗口",
+          "高对称性"
+        ],
+        "track2": [
+          "8个未配对数字",
+          "高对称性"
+        ],
+        "track3": [
+          "24个未配对数字",
+          "高对称性"
+        ],
+        "track4": [
+          "8个未配对数字",
+          "高对称性"
+        ]
+      },
+      "biological_hypotheses": [
+        "最佳表现轨道: track2，可能反映主要序列特征",
+        "高对称性序列，可能为回文结构或对称功能元件"
+      ]
+    },
+    "summary": {
+      "basic_info": {
+        "length": 48,
+        "gc_content": 0.3333333333333333,
+        "encoded_length": 24
+      },
+      "performance": {
+        "track1": {
+          "score": 0.4,
+          "rank": "中"
+        },
+        "track2": {
+          "score": 0.8,
+          "rank": "优"
+        },
+        "track3": {
+          "score": 0.533,
+          "rank": "良"
+        },
+        "track4": {
+          "score": 0.8,
+          "rank": "优"
+        }
+      },
+      "key_findings": [
+        "低GC含量(33.3%)，易于解链",
+        "最佳表现轨道: track2，可能反映主要序列特征",
+        "高对称性序列，可能为回文结构或对称功能元件"
+      ]
+    },
+    "null_hypothesis": {
+      "target_analysis": {
+        "track1": {
+          "forward": {
+            "window_count": 3,
+            "symbol_pairs": {
+              "valid": 0,
+              "total": 24,
+              "ratio": 0.0
+            },
+            "digit_pairs": {
+              "valid": 0,
+              "total": 12,
+              "ratio": 0.0
+            },
+            "global_digit_pairs": {
+              "valid": 0,
+              "total": 12,
+              "ratio": 0.0,
+              "pair_types": {},
+              "unpaired": {
+                "2": 8,
+                "3": 8,
+                "6": 8
+              }
+            },
+            "yinyang": {
+              "yang": 24,
+              "yin": 0,
+              "ratio": 0,
+              "yang_percent": 1.0
+            }
+          },
+          "backward": {
+            "window_count": 3,
+            "symbol_pairs": {
+              "valid": 0,
+              "total": 24,
+              "ratio": 0.0
+            },
+            "digit_pairs": {
+              "valid": 0,
+              "total": 12,
+              "ratio": 0.0
+            },
+            "global_digit_pairs": {
+              "valid": 0,
+              "total": 12,
+              "ratio": 0.0,
+              "pair_types": {},
+              "unpaired": {
+                "2": 8,
+                "3": 8,
+                "6": 8
+              }
+            },
+            "yinyang": {
+              "yang": 24,
+              "yin": 0,
+              "ratio": 0,
+              "yang_percent": 1.0
+            }
+          },
+          "symmetry": {
+            "pair_similarity": 1.0,
+            "global_similarity": 1.0,
+            "yang_similarity": 1.0,
+            "overall": 1.0
+          }
+        },
+        "track2": {
+          "forward": {
+            "window_count": 0,
+            "symbol_pairs": {
+              "valid": 0,
+              "total": 0,
+              "ratio": 0
+            },
+            "digit_pairs": {
+              "valid": 0,
+              "total": 0,
+              "ratio": 0
+            },
+            "global_digit_pairs": {
+              "valid": 8,
+              "total": 12,
+              "ratio": 0.6666666666666666,
+              "pair_types": {
+                "C": {
+                  "count": 8,
+                  "yinyang": "阳"
+                }
+              },
+              "unpaired": {
+                "2": 8
+              }
+            },
+            "yinyang": {
+              "yang": 16,
+              "yin": 8,
+              "ratio": 2.0,
+              "yang_percent": 0.6666666666666666
+            }
+          },
+          "backward": {
+            "window_count": 0,
+            "symbol_pairs": {
+              "valid": 0,
+              "total": 0,
+              "ratio": 0
+            },
+            "digit_pairs": {
+              "valid": 0,
+              "total": 0,
+              "ratio": 0
+            },
+            "global_digit_pairs": {
+              "valid": 8,
+              "total": 12,
+              "ratio": 0.6666666666666666,
+              "pair_types": {
+                "C": {
+                  "count": 8,
+                  "yinyang": "阳"
+                }
+              },
+              "unpaired": {
+                "2": 8
+              }
+            },
+            "yinyang": {
+              "yang": 16,
+              "yin": 8,
+              "ratio": 2.0,
+              "yang_percent": 0.6666666666666666
+            }
+          },
+          "symmetry": {
+            "pair_similarity": 1,
+            "global_similarity": 1.0,
+            "yang_similarity": 1.0,
+            "overall": 1.0
+          }
+        },
+        "track3": {
+          "forward": {
+            "window_count": 0,
+            "symbol_pairs": {
+              "valid": 0,
+              "total": 0,
+              "ratio": 0
+            },
+            "digit_pairs": {
+              "valid": 0,
+              "total": 0,
+              "ratio": 0
+            },
+            "global_digit_pairs": {
+              "valid": 0,
+              "total": 12,
+              "ratio": 0.0,
+              "pair_types": {},
+              "unpaired": {
+                "2": 8,
+                "3": 8,
+                "6": 8
+              }
+            },
+            "yinyang": {
+              "yang": 8,
+              "yin": 16,
+              "ratio": 0.5,
+              "yang_percent": 0.3333333333333333
+            }
+          },
+          "backward": {
+            "window_count": 0,
+            "symbol_pairs": {
+              "valid": 0,
+              "total": 0,
+              "ratio": 0
+            },
+            "digit_pairs": {
+              "valid": 0,
+              "total": 0,
+              "ratio": 0
+            },
+            "global_digit_pairs": {
+              "valid": 0,
+              "total": 12,
+              "ratio": 0.0,
+              "pair_types": {},
+              "unpaired": {
+                "2": 8,
+                "3": 8,
+                "6": 8
+              }
+            },
+            "yinyang": {
+              "yang": 8,
+              "yin": 16,
+              "ratio": 0.5,
+              "yang_percent": 0.3333333333333333
+            }
+          },
+          "symmetry": {
+            "pair_similarity": 1,
+            "global_similarity": 1.0,
+            "yang_similarity": 1.0,
+            "overall": 1.0
+          }
+        },
+        "track4": {
+          "forward": {
+            "window_count": 0,
+            "symbol_pairs": {
+              "valid": 0,
+              "total": 0,
+              "ratio": 0
+            },
+            "digit_pairs": {
+              "valid": 0,
+              "total": 0,
+              "ratio": 0
+            },
+            "global_digit_pairs": {
+              "valid": 8,
+              "total": 12,
+              "ratio": 0.6666666666666666,
+              "pair_types": {
+                "三": {
+                  "count": 8,
+                  "yinyang": "阳"
+                }
+              },
+              "unpaired": {
+                "2": 8
+              }
+            },
+            "yinyang": {
+              "yang": 16,
+              "yin": 8,
+              "ratio": 2.0,
+              "yang_percent": 0.6666666666666666
+            }
+          },
+          "backward": {
+            "window_count": 0,
+            "symbol_pairs": {
+              "valid": 0,
+              "total": 0,
+              "ratio": 0
+            },
+            "digit_pairs": {
+              "valid": 0,
+              "total": 0,
+              "ratio": 0
+            },
+            "global_digit_pairs": {
+              "valid": 8,
+              "total": 12,
+              "ratio": 0.6666666666666666,
+              "pair_types": {
+                "三": {
+                  "count": 8,
+                  "yinyang": "阳"
+                }
+              },
+              "unpaired": {
+                "2": 8
+              }
+            },
+            "yinyang": {
+              "yang": 16,
+              "yin": 8,
+              "ratio": 2.0,
+              "yang_percent": 0.6666666666666666
+            }
+          },
+          "symmetry": {
+            "pair_similarity": 1,
+            "global_similarity": 1.0,
+            "yang_similarity": 1.0,
+            "overall": 1.0
+          }
+        },
+        "summary": {
+          "best_track": "track2",
+          "worst_track": "track1",
+          "average_symmetry": 1.0,
+          "track_scores": {
+            "track1": {
+              "score": 0.4,
+              "symmetry": 1.0,
+              "pairing": 0.0
+            },
+            "track2": {
+              "score": 0.8,
+              "symmetry": 1.0,
+              "pairing": 0.6666666666666666
+            },
+            "track3": {
+              "score": 0.5333333333333333,
+              "symmetry": 1.0,
+              "pairing": 0.0
+            },
+            "track4": {
+              "score": 0.8,
+              "symmetry": 1.0,
+              "pairing": 0.6666666666666666
+            }
+          }
+        }
+      },
+      "random_stats": {
+        "track1": {
+          "target": {
+            "symmetry": 1.0,
+            "pair_ratio": 0.0
+          },
+          "random": {
+            "mean_symmetry": 0.9862638888888889,
+            "std_symmetry": 0.01263588721000055,
+            "mean_pair_ratio": 0.09504166666666666,
+            "std_pair_ratio": 0.06546451948685622
+          },
+          "significance": {
+            "z_symmetry": 1.087071361339768,
+            "p_symmetry": "> 0.05",
+            "z_pair_ratio": -1.451804235510334,
+            "p_pair_ratio": "> 0.05"
+          },
+          "math_constants": {
+            "pi": {
+              "similarity": 0.0625,
+              "distribution_similarity": 0.3125
+            },
+            "phi": {
+              "similarity": 0.0,
+              "distribution_similarity": 0.1875000000000001
+            },
+            "e": {
+              "similarity": 0.0625,
+              "distribution_similarity": 0.1875
+            }
+          }
+        },
+        "track2": {
+          "target": {
+            "symmetry": 1.0,
+            "pair_ratio": 0.6666666666666666
+          },
+          "random": {
+            "mean_symmetry": 1.0,
+            "std_symmetry": 0.0,
+            "mean_pair_ratio": 0.6100833333333333,
+            "std_pair_ratio": 0.1321424282490896
+          },
+          "significance": {
+            "z_symmetry": 0,
+            "p_symmetry": "> 0.05",
+            "z_pair_ratio": 0.4281995879981353,
+            "p_pair_ratio": "> 0.05"
+          },
+          "math_constants": {
+            "pi": {
+              "similarity": 0.0625,
+              "distribution_similarity": 0.3125
+            },
+            "phi": {
+              "similarity": 0.0,
+              "distribution_similarity": 0.1875000000000001
+            },
+            "e": {
+              "similarity": 0.0625,
+              "distribution_similarity": 0.1875
+            }
+          }
+        },
+        "track3": {
+          "target": {
+            "symmetry": 1.0,
+            "pair_ratio": 0.0
+          },
+          "random": {
+            "mean_symmetry": 1.0,
+            "std_symmetry": 0.0,
+            "mean_pair_ratio": 0.5775833333333333,
+            "std_pair_ratio": 0.13061541553608652
+          },
+          "significance": {
+            "z_symmetry": 0,
+            "p_symmetry": "> 0.05",
+            "z_pair_ratio": -4.422015050541704,
+            "p_pair_ratio": "< 0.001"
+          },
+          "math_constants": {
+            "pi": {
+              "similarity": 0.0625,
+              "distribution_similarity": 0.3125
+            },
+            "phi": {
+              "similarity": 0.0,
+              "distribution_similarity": 0.1875000000000001
+            },
+            "e": {
+              "similarity": 0.0625,
+              "distribution_similarity": 0.1875
+            }
+          }
+        },
+        "track4": {
+          "target": {
+            "symmetry": 1.0,
+            "pair_ratio": 0.6666666666666666
+          },
+          "random": {
+            "mean_symmetry": 1.0,
+            "std_symmetry": 0.0,
+            "mean_pair_ratio": 0.64575,
+            "std_pair_ratio": 0.12824584050454746
+          },
+          "significance": {
+            "z_symmetry": 0,
+            "p_symmetry": "> 0.05",
+            "z_pair_ratio": 0.16309820719623963,
+            "p_pair_ratio": "> 0.05"
+          },
+          "math_constants": {
+            "pi": {
+              "similarity": 0.0625,
+              "distribution_similarity": 0.3125
+            },
+            "phi": {
+              "similarity": 0.0,
+              "distribution_similarity": 0.1875000000000001
+            },
+            "e": {
+              "similarity": 0.0625,
+              "distribution_similarity": 0.1875
+            }
+          }
+        }
+      },
+      "n_random": 1000
+    }
+  }
+}

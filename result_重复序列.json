@@ -1,0 +1,555 @@
+{
+  "重复序列": {
+    "metadata": {
+      "name": "重复序列",
+      "timestamp": "2026-02-15 18:06:40",
+      "length": 44
+    },
+    "encoding": {
+      "original": "AGCTAGCTAGCTAGCTAGCTAGCTAGCTAGCTAGCTAGCTAGCT",
+      "digits": [
+        2,
+        6,
+        2,
+        6,
+        2,
+        6,
+        2,
+        6,
+        2,
+        6,
+        2,
+        6,
+        2,
+        6,
+        2,
+        6,
+        2,
+        6,
+        2,
+        6,
+        2,
+        6
+      ],
+      "details": [
+        {
+          "position": 0,
+          "bases": "AG",
+          "code": 2,
+          "direction": "forward",
+          "direction_mark": ""
+        },
+        {
+          "position": 2,
+          "bases": "CT",
+          "code": 6,
+          "direction": "forward",
+          "direction_mark": ""
+        },
+        {
+          "position": 4,
+          "bases": "AG",
+          "code": 2,
+          "direction": "forward",
+          "direction_mark": ""
+        },
+        {
+          "position": 6,
+          "bases": "CT",
+          "code": 6,
+          "direction": "forward",
+          "direction_mark": ""
+        },
+        {
+          "position": 8,
+          "bases": "AG",
+          "code": 2,
+          "direction": "forward",
+          "direction_mark": ""
+        },
+        {
+          "position": 10,
+          "bases": "CT",
+          "code": 6,
+          "direction": "forward",
+          "direction_mark": ""
+        },
+        {
+          "position": 12,
+          "bases": "AG",
+          "code": 2,
+          "direction": "forward",
+          "direction_mark": ""
+        },
+        {
+          "position": 14,
+          "bases": "CT",
+          "code": 6,
+          "direction": "forward",
+          "direction_mark": ""
+        },
+        {
+          "position": 16,
+          "bases": "AG",
+          "code": 2,
+          "direction": "forward",
+          "direction_mark": ""
+        },
+        {
+          "position": 18,
+          "bases": "CT",
+          "code": 6,
+          "direction": "forward",
+          "direction_mark": ""
+        },
+        {
+          "position": 20,
+          "bases": "AG",
+          "code": 2,
+          "direction": "forward",
+          "direction_mark": ""
+        },
+        {
+          "position": 22,
+          "bases": "CT",
+          "code": 6,
+          "direction": "forward",
+          "direction_mark": ""
+        },
+        {
+          "position": 24,
+          "bases": "AG",
+          "code": 2,
+          "direction": "forward",
+          "direction_mark": ""
+        },
+        {
+          "position": 26,
+          "bases": "CT",
+          "code": 6,
+          "direction": "forward",
+          "direction_mark": ""
+        },
+        {
+          "position": 28,
+          "bases": "AG",
+          "code": 2,
+          "direction": "forward",
+          "direction_mark": ""
+        },
+        {
+          "position": 30,
+          "bases": "CT",
+          "code": 6,
+          "direction": "forward",
+          "direction_mark": ""
+        },
+        {
+          "position": 32,
+          "bases": "AG",
+          "code": 2,
+          "direction": "forward",
+          "direction_mark": ""
+        },
+        {
+          "position": 34,
+          "bases": "CT",
+          "code": 6,
+          "direction": "forward",
+          "direction_mark": ""
+        },
+        {
+          "position": 36,
+          "bases": "AG",
+          "code": 2,
+          "direction": "forward",
+          "direction_mark": ""
+        },
+        {
+          "position": 38,
+          "bases": "CT",
+          "code": 6,
+          "direction": "forward",
+          "direction_mark": ""
+        },
+        {
+          "position": 40,
+          "bases": "AG",
+          "code": 2,
+          "direction": "forward",
+          "direction_mark": ""
+        },
+        {
+          "position": 42,
+          "bases": "CT",
+          "code": 6,
+          "direction": "forward",
+          "direction_mark": ""
+        }
+      ],
+      "stats": {
+        "length": 44,
+        "gc_content": 0.5,
+        "gc_count": 22,
+        "at_count": 22,
+        "digit_counts": {
+          "2": 11,
+          "6": 11
+        },
+        "unique_digits": 2,
+        "encoded_length": 22
+      }
+    },
+    "analysis": {
+      "track1": {
+        "forward": {
+          "window_count": 3,
+          "symbol_pairs": {
+            "valid": 0,
+            "total": 24,
+            "ratio": 0.0
+          },
+          "digit_pairs": {
+            "valid": 0,
+            "total": 11,
+            "ratio": 0.0
+          },
+          "global_digit_pairs": {
+            "valid": 0,
+            "total": 11,
+            "ratio": 0.0,
+            "pair_types": {},
+            "unpaired": {
+              "2": 11,
+              "6": 11
+            }
+          },
+          "yinyang": {
+            "yang": 22,
+            "yin": 0,
+            "ratio": 0,
+            "yang_percent": 1.0
+          }
+        },
+        "backward": {
+          "window_count": 3,
+          "symbol_pairs": {
+            "valid": 0,
+            "total": 24,
+            "ratio": 0.0
+          },
+          "digit_pairs": {
+            "valid": 0,
+            "total": 11,
+            "ratio": 0.0
+          },
+          "global_digit_pairs": {
+            "valid": 0,
+            "total": 11,
+            "ratio": 0.0,
+            "pair_types": {},
+            "unpaired": {
+              "6": 11,
+              "2": 11
+            }
+          },
+          "yinyang": {
+            "yang": 22,
+            "yin": 0,
+            "ratio": 0,
+            "yang_percent": 1.0
+          }
+        },
+        "symmetry": {
+          "pair_similarity": 1.0,
+          "global_similarity": 1.0,
+          "yang_similarity": 1.0,
+          "overall": 1.0
+        }
+      },
+      "track2": {
+        "forward": {
+          "window_count": 0,
+          "symbol_pairs": {
+            "valid": 0,
+            "total": 0,
+            "ratio": 0
+          },
+          "digit_pairs": {
+            "valid": 0,
+            "total": 0,
+            "ratio": 0
+          },
+          "global_digit_pairs": {
+            "valid": 0,
+            "total": 11,
+            "ratio": 0.0,
+            "pair_types": {},
+            "unpaired": {
+              "2": 11,
+              "6": 11
+            }
+          },
+          "yinyang": {
+            "yang": 11,
+            "yin": 11,
+            "ratio": 1.0,
+            "yang_percent": 0.5
+          }
+        },
+        "backward": {
+          "window_count": 0,
+          "symbol_pairs": {
+            "valid": 0,
+            "total": 0,
+            "ratio": 0
+          },
+          "digit_pairs": {
+            "valid": 0,
+            "total": 0,
+            "ratio": 0
+          },
+          "global_digit_pairs": {
+            "valid": 0,
+            "total": 11,
+            "ratio": 0.0,
+            "pair_types": {},
+            "unpaired": {
+              "6": 11,
+              "2": 11
+            }
+          },
+          "yinyang": {
+            "yang": 11,
+            "yin": 11,
+            "ratio": 1.0,
+            "yang_percent": 0.5
+          }
+        },
+        "symmetry": {
+          "pair_similarity": 1,
+          "global_similarity": 1.0,
+          "yang_similarity": 1.0,
+          "overall": 1.0
+        }
+      },
+      "track3": {
+        "forward": {
+          "window_count": 0,
+          "symbol_pairs": {
+            "valid": 0,
+            "total": 0,
+            "ratio": 0
+          },
+          "digit_pairs": {
+            "valid": 0,
+            "total": 0,
+            "ratio": 0
+          },
+          "global_digit_pairs": {
+            "valid": 0,
+            "total": 11,
+            "ratio": 0.0,
+            "pair_types": {},
+            "unpaired": {
+              "2": 11,
+              "6": 11
+            }
+          },
+          "yinyang": {
+            "yang": 0,
+            "yin": 22,
+            "ratio": 0.0,
+            "yang_percent": 0.0
+          }
+        },
+        "backward": {
+          "window_count": 0,
+          "symbol_pairs": {
+            "valid": 0,
+            "total": 0,
+            "ratio": 0
+          },
+          "digit_pairs": {
+            "valid": 0,
+            "total": 0,
+            "ratio": 0
+          },
+          "global_digit_pairs": {
+            "valid": 0,
+            "total": 11,
+            "ratio": 0.0,
+            "pair_types": {},
+            "unpaired": {
+              "6": 11,
+              "2": 11
+            }
+          },
+          "yinyang": {
+            "yang": 0,
+            "yin": 22,
+            "ratio": 0.0,
+            "yang_percent": 0.0
+          }
+        },
+        "symmetry": {
+          "pair_similarity": 1,
+          "global_similarity": 1.0,
+          "yang_similarity": 1.0,
+          "overall": 1.0
+        }
+      },
+      "track4": {
+        "forward": {
+          "window_count": 0,
+          "symbol_pairs": {
+            "valid": 0,
+            "total": 0,
+            "ratio": 0
+          },
+          "digit_pairs": {
+            "valid": 0,
+            "total": 0,
+            "ratio": 0
+          },
+          "global_digit_pairs": {
+            "valid": 0,
+            "total": 11,
+            "ratio": 0.0,
+            "pair_types": {},
+            "unpaired": {
+              "2": 11,
+              "6": 11
+            }
+          },
+          "yinyang": {
+            "yang": 11,
+            "yin": 11,
+            "ratio": 1.0,
+            "yang_percent": 0.5
+          }
+        },
+        "backward": {
+          "window_count": 0,
+          "symbol_pairs": {
+            "valid": 0,
+            "total": 0,
+            "ratio": 0
+          },
+          "digit_pairs": {
+            "valid": 0,
+            "total": 0,
+            "ratio": 0
+          },
+          "global_digit_pairs": {
+            "valid": 0,
+            "total": 11,
+            "ratio": 0.0,
+            "pair_types": {},
+            "unpaired": {
+              "6": 11,
+              "2": 11
+            }
+          },
+          "yinyang": {
+            "yang": 11,
+            "yin": 11,
+            "ratio": 1.0,
+            "yang_percent": 0.5
+          }
+        },
+        "symmetry": {
+          "pair_similarity": 1,
+          "global_similarity": 1.0,
+          "yang_similarity": 1.0,
+          "overall": 1.0
+        }
+      },
+      "summary": {
+        "best_track": "track2",
+        "worst_track": "track3",
+        "average_symmetry": 1.0,
+        "track_scores": {
+          "track1": {
+            "score": 0.4,
+            "symmetry": 1.0,
+            "pairing": 0.0
+          },
+          "track2": {
+            "score": 0.6000000000000001,
+            "symmetry": 1.0,
+            "pairing": 0.0
+          },
+          "track3": {
+            "score": 0.4,
+            "symmetry": 1.0,
+            "pairing": 0.0
+          },
+          "track4": {
+            "score": 0.6000000000000001,
+            "symmetry": 1.0,
+            "pairing": 0.0
+          }
+        }
+      }
+    },
+    "interpretation": {
+      "gc_analysis": [
+        "中等GC含量(50.0%)"
+      ],
+      "track_insights": {
+        "track1": [
+          "低配对率，可能为随机区域",
+          "检测到3个分析窗口",
+          "高对称性"
+        ],
+        "track2": [
+          "22个未配对数字",
+          "高对称性"
+        ],
+        "track3": [
+          "22个未配对数字",
+          "高对称性"
+        ],
+        "track4": [
+          "22个未配对数字",
+          "高对称性"
+        ]
+      },
+      "biological_hypotheses": [
+        "最佳表现轨道: track2，可能反映主要序列特征",
+        "高对称性序列，可能为回文结构或对称功能元件"
+      ]
+    },
+    "summary": {
+      "basic_info": {
+        "length": 44,
+        "gc_content": 0.5,
+        "encoded_length": 22
+      },
+      "performance": {
+        "track1": {
+          "score": 0.4,
+          "rank": "中"
+        },
+        "track2": {
+          "score": 0.6,
+          "rank": "良"
+        },
+        "track3": {
+          "score": 0.4,
+          "rank": "中"
+        },
+        "track4": {
+          "score": 0.6,
+          "rank": "良"
+        }
+      },
+      "key_findings": [
+        "中等GC含量(50.0%)",
+        "最佳表现轨道: track2，可能反映主要序列特征",
+        "高对称性序列，可能为回文结构或对称功能元件"
+      ]
+    }
+  }
+}

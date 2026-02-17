@@ -1,4 +1,4 @@
-﻿﻿# core/predictors/pattern_predictor.py
+﻿# core/predictors/pattern_predictor.py
 # 模式预测器
 
 from typing import Dict, List, Any

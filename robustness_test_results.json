@@ -1,0 +1,151 @@
+{
+  "test_cases": {
+    "空序列": {
+      "input": "",
+      "input_length": 0,
+      "success": true,
+      "error": null,
+      "execution_time": 0.0,
+      "encoding": {
+        "digits_length": 0,
+        "processed_length": 0
+      },
+      "analysis": null
+    },
+    "极短序列(2bp)": {
+      "input": "AC",
+      "input_length": 2,
+      "success": true,
+      "error": null,
+      "execution_time": 0.0009963512420654297,
+      "encoding": {
+        "digits_length": 1,
+        "processed_length": 2
+      },
+      "analysis": {
+        "has_error": false
+      },
+      "decoded": "AC"
+    },
+    "极短序列(4bp)": {
+      "input": "ACGT",
+      "input_length": 4,
+      "success": true,
+      "error": null,
+      "execution_time": 0.0004372596740722656,
+      "encoding": {
+        "digits_length": 2,
+        "processed_length": 4
+      },
+      "analysis": {
+        "has_error": false
+      },
+      "decoded": "ACGT"
+    },
+    "奇数长度序列": {
+      "input": "ACGTACG",
+      "input_length": 7,
+      "success": true,
+      "error": null,
+      "execution_time": 0.0,
+      "encoding": {
+        "digits_length": 3,
+        "processed_length": 6
+      },
+      "analysis": {
+        "has_error": false
+      },
+      "decoded": "ACGTAC"
+    },
+    "包含无效字符": {
+      "input": "ACGTXYZACGT",
+      "input_length": 11,
+      "success": false,
+      "error": "无效DNA字符: 'X'，只允许A,C,G,T",
+      "execution_time": 0.0,
+      "encoding": null,
+      "analysis": null
+    },
+    "长序列(50bp)": {
+      "input": "ACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGT",
+      "input_length": 48,
+      "success": true,
+      "error": null,
+      "execution_time": 0.0,
+      "encoding": {
+        "digits_length": 24,
+        "processed_length": 48
+      },
+      "analysis": {
+        "has_error": false
+      },
+      "decoded": "ACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGT"
+    },
+    "长序列(100bp)": {
+      "input": "ACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGT",
+      "input_length": 76,
+      "success": true,
+      "error": null,
+      "execution_time": 0.0,
+      "encoding": {
+        "digits_length": 38,
+        "processed_length": 76
+      },
+      "analysis": {
+        "has_error": false
+      },
+      "decoded": "ACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGT"
+    },
+    "重复序列": {
+      "input": "AAAAAAA",
+      "input_length": 7,
+      "success": true,
+      "error": null,
+      "execution_time": 0.0,
+      "encoding": {
+        "digits_length": 3,
+        "processed_length": 6
+      },
+      "analysis": {
+        "has_error": false
+      },
+      "decoded": "AAAAAA"
+    },
+    "高GC含量": {
+      "input": "GGGGCCCCGGGGCCCC",
+      "input_length": 16,
+      "success": true,
+      "error": null,
+      "execution_time": 0.0010013580322265625,
+      "encoding": {
+        "digits_length": 8,
+        "processed_length": 16
+      },
+      "analysis": {
+        "has_error": false
+      },
+      "decoded": "GGGGCCCCGGGGCCCC"
+    },
+    "高AT含量": {
+      "input": "AAAAAAAAATTTTTTTTT",
+      "input_length": 18,
+      "success": true,
+      "error": null,
+      "execution_time": 0.0,
+      "encoding": {
+        "digits_length": 9,
+        "processed_length": 18
+      },
+      "analysis": {
+        "has_error": false
+      },
+      "decoded": "AAAAAAAAATTTTTTTTT"
+    }
+  },
+  "summary": {
+    "total_tests": 10,
+    "passed_tests": 9,
+    "failed_tests": 1,
+    "avg_execution_time": 0.00024349689483642577
+  }
+}

@@ -54,8 +54,6 @@ class MainWindow:
         
         # 初始化控制面板
         self._init_control_panel()
-        # 添加DNA输入支持
-        self._init_dna_input()
         
         # 初始化显示面板
         self._init_display_panel()
@@ -316,7 +314,7 @@ class MainWindow:
                 return
             
             # 分类常数
-            classification = self.classifier.classify(constant_name, digits)
+            classification = self.classifier.classify(digits, constant_name)
             
             # 显示分类结果
             self._display_classification_result(constant_name, classification)
