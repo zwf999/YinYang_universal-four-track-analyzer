@@ -20,15 +20,23 @@ class UniversalEncoder:
     """通用编码器：处理DNA和数字"""
     
     def __init__(self):
-        # DNA编码部分
-        self.base_to_num = {'A': 0, 'C': 1, 'G': 2, 'T': 3}
-        
-        # 你的三角形编码表
-        self.triangle_table = {
-            (0, 0): 0, (0, 1): 1, (1, 1): 4,
-            (0, 2): 2, (1, 2): 5, (2, 2): 7,
-            (0, 3): 3, (1, 3): 6, (2, 3): 8, (3, 3): 9
+        # DNA编码部分：新的一步映射（用户提供的原始设计）
+        self.basepair_to_num = {
+            'AA': 0, 'AC': 1, 'AG': 2, 'AT': 3,
+            'CA': 1, 'CC': 4, 'CG': 5, 'CT': 6,
+            'GA': 2, 'GC': 5, 'GG': 7, 'GT': 8,
+            'TA': 3, 'TC': 6, 'TG': 8, 'TT': 9
         }
+        
+        # 反向映射：数字到碱基对（用户提供的原始设计）
+        self.num_to_basepair = {
+            0: 'AA', 1: 'AC', 2: 'AG', 3: 'AT',
+            4: 'CC', 5: 'CG', 6: 'CT', 7: 'GG',
+            8: 'GT', 9: 'TT'
+        }
+        
+        # 碱基到0-3的映射（仅用于兼容旧代码）
+        self.base_to_num = {'A': 0, 'C': 1, 'G': 2, 'T': 3}
     
     def encode_dna(self, dna_sequence: str) -> Dict[str, Any]:
         """编码DNA序列"""
@@ -40,20 +48,23 @@ class UniversalEncoder:
         i = 0
         while i < len(dna_seq):
             # 处理碱基对（序列已确保为偶数长度）
-            b1, b2 = dna_seq[i], dna_seq[i+1]
-            n1, n2 = self.base_to_num[b1], self.base_to_num[b2]
-            small, large = (n1, n2) if n1 <= n2 else (n2, n1)
-            code = self.triangle_table[(small, large)]
+            basepair = dna_seq[i:i+2]
             
-            # 方向标记：正序无标记，反序左箭头
-            is_forward = (n1 <= n2)
-            direction_mark = '' if is_forward else '←'
+            # 使用新的一步映射：直接从碱基对获取编码
+            code = self.basepair_to_num[basepair]
+            
+            # 确定方向（正序/逆序）
+            # 根据碱基对与默认映射的关系确定方向
+            default_basepair = self.num_to_basepair[code]
+            is_forward = (basepair == default_basepair)
+            direction = 'forward' if is_forward else 'reverse'
+            direction_mark = '' if is_forward else '←'  # 正序不标注，逆序用←标记
             
             digits.append(code)
             details.append({
-                'bases': b1 + b2,
+                'bases': basepair,
                 'code': code,
-                'direction': 'forward' if is_forward else 'reverse',
+                'direction': direction,
                 'direction_mark': direction_mark
             })
             i += 2

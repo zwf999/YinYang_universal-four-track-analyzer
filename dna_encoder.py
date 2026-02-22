@@ -13,20 +13,24 @@ class DNAEncoder:
         """
         self.encoding_scheme = encoding_scheme
         
-        # 碱基到0-3的基础映射
-        self.base_to_num = {'A': 0, 'C': 1, 'G': 2, 'T': 3}
-        self.num_to_base = {0: 'A', 1: 'C', 2: 'G', 3: 'T'}
-        
-        # 你的三角形编码表
-        self.triangle_encoding = {
-            (0, 0): 0,                    # AA
-            (0, 1): 1, (1, 1): 4,         # AC, CC
-            (0, 2): 2, (1, 2): 5, (2, 2): 7,  # AG, CG, GG
-            (0, 3): 3, (1, 3): 6, (2, 3): 8, (3, 3): 9  # AT, CT, GT, TT
+        # 新的一步映射：直接将碱基对映射到0-9数字（用户提供的原始设计）
+        self.basepair_to_num = {
+            'AA': 0, 'AC': 1, 'AG': 2, 'AT': 3,
+            'CA': 1, 'CC': 4, 'CG': 5, 'CT': 6,
+            'GA': 2, 'GC': 5, 'GG': 7, 'GT': 8,
+            'TA': 3, 'TC': 6, 'TG': 8, 'TT': 9
         }
         
-        # 反向映射
-        self.code_to_pair = {v: k for k, v in self.triangle_encoding.items()}
+        # 反向映射：数字到碱基对（用户提供的原始设计）
+        self.num_to_basepair = {
+            0: 'AA', 1: 'AC', 2: 'AG', 3: 'AT',
+            4: 'CC', 5: 'CG', 6: 'CT', 7: 'GG',
+            8: 'GT', 9: 'TT'
+        }
+        
+        # 碱基到0-3的基础映射（仅用于简单编码）
+        self.base_to_num = {'A': 0, 'C': 1, 'G': 2, 'T': 3}
+        self.num_to_base = {0: 'A', 1: 'C', 2: 'G', 3: 'T'}
     
     def encode(self, dna_sequence):
         """
@@ -55,27 +59,26 @@ class DNAEncoder:
         i = 0
         while i < len(dna_seq):
             # 处理碱基对（序列已确保为偶数长度）
-            b1, b2 = dna_seq[i], dna_seq[i+1]
-            n1, n2 = self.base_to_num[b1], self.base_to_num[b2]
+            basepair = dna_seq[i:i+2]
+            b1, b2 = basepair[0], basepair[1]
             
-            # 排序用于三角形编码
-            small, large = (n1, n2) if n1 <= n2 else (n2, n1)
-            code = self.triangle_encoding[(small, large)]
+            # 使用新的一步映射：直接从碱基对获取编码
+            code = self.basepair_to_num[basepair]
             
-            # 记录方向
-            is_forward = (n1 <= n2)
-            # 使用左箭头标注反序，正序不标注
-            direction = '' if is_forward else '←'
+            # 确定方向（正序/逆序）
+            # 根据碱基对与默认映射的关系确定方向
+            default_basepair = self.num_to_basepair[code]
+            is_forward = (basepair == default_basepair)
+            direction = '' if is_forward else '←'  # 正序不标注，逆序用←标记
             
             digits.append(code)
             direction_flags.append(direction)
             encoding_details.append({
-                'bases': b1 + b2,
-                'numbers': (n1, n2),
+                'bases': basepair,
                 'code': code,
                 'direction': 'forward' if is_forward else 'reverse',
                 'direction_mark': direction,
-                'pair_type': self._get_pair_type(small, large)
+                'pair_type': self._get_pair_type_new(basepair)
             })
             
             i += 2
@@ -121,18 +124,24 @@ class DNAEncoder:
         dna_bases = []
         
         for idx, code in enumerate(digits):
-            # 所有编码都是碱基对（已确保偶数长度序列）
+            # 使用新的一步映射：直接从数字获取碱基对
+            basepair = self.num_to_basepair[code]
+            
             if idx < len(direction_flags):
                 direction_mark = direction_flags[idx]
-                n1, n2 = self.code_to_pair[code]
                 
                 if direction_mark == '':  # 正序（无标记）
-                    dna_bases.extend([self.num_to_base[n1], self.num_to_base[n2]])
+                    dna_bases.extend(basepair)
                 elif direction_mark == '←':  # 逆序（左箭头标记）
-                    dna_bases.extend([self.num_to_base[n2], self.num_to_base[n1]])
+                    # 逆序碱基对
+                    reversed_basepair = basepair[1] + basepair[0]
+                    dna_bases.extend(reversed_basepair)
                 else:
                     # 无方向信息，默认正序
-                    dna_bases.extend([self.num_to_base[n1], self.num_to_base[n2]])
+                    dna_bases.extend(basepair)
+            else:
+                # 无方向信息，默认正序
+                dna_bases.extend(basepair)
         
         return ''.join(dna_bases)
     
@@ -159,12 +168,25 @@ class DNAEncoder:
         return seq
     
     def _get_pair_type(self, x, y):
-        """获取碱基对类型"""
+        """获取碱基对类型（旧方法，仅用于简单编码）"""
         if x == y:
             return 'homo'  # 相同碱基
         elif (x, y) in [(0, 3), (3, 0)]:  # A-T或T-A
             return 'watson_crick_at'
         elif (x, y) in [(1, 2), (2, 1)]:  # C-G或G-C
+            return 'watson_crick_cg'
+        else:
+            return 'mismatch'
+    
+    def _get_pair_type_new(self, basepair):
+        """获取碱基对类型（新方法，使用一步映射）"""
+        b1, b2 = basepair[0], basepair[1]
+        
+        if b1 == b2:
+            return 'homo'  # 相同碱基
+        elif (b1, b2) in [('A', 'T'), ('T', 'A')]:  # A-T或T-A
+            return 'watson_crick_at'
+        elif (b1, b2) in [('C', 'G'), ('G', 'C')]:  # C-G或G-C
             return 'watson_crick_cg'
         else:
             return 'mismatch'
