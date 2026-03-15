@@ -1,0 +1,55 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2005-03-28T15:20:55.990Z,2.029,97.203,30,3.9,mb,6,218.1,,0.28,us,usp000dk82,2014-11-07T01:25:20.044Z,"71 km WSW of Singkil, Indonesia",earthquake,,,,1,reviewed,us,us
+2005-03-27T20:15:46.820Z,1.481,99.591,177.3,3.9,mb,19,119.2,,0.61,us,usp000dk6d,2014-11-07T01:25:19.866Z,"37 km ENE of Padangsidempuan, Indonesia",earthquake,,57.6,,4,reviewed,us,us
+2005-03-27T06:09:26.090Z,4.798,95.026,30,4.8,mb,110,71.5,,0.75,us,usp000dk56,2014-11-07T01:25:19.748Z,"89 km SSW of Banda Aceh, Indonesia",earthquake,,,,48,reviewed,us,us
+2005-03-25T22:28:51.100Z,4.716,97.616,30,4.2,mb,7,206.8,,1.25,us,usp000dk28,2014-11-07T01:25:19.400Z,"47 km NW of Langsa, Indonesia",earthquake,,,,2,reviewed,us,us
+2005-03-25T21:58:05.860Z,3.022,95.652,36,4.6,mb,42,119.5,,0.78,us,usp000dk27,2014-11-07T01:25:19.397Z,"100 km NW of Sinabang, Indonesia",earthquake,,14.5,,17,reviewed,us,us
+2005-03-22T10:03:54.130Z,4.789,94.775,30,4.4,mb,17,176.1,,0.78,us,usp000djt3,2014-11-07T01:25:17.751Z,"103 km SW of Banda Aceh, Indonesia",earthquake,,,,5,reviewed,us,us
+2005-03-22T01:36:52.170Z,2.568,95.508,25,4.2,mb,11,210.5,,1.04,us,usp000djs3,2014-11-07T01:25:17.640Z,"97 km W of Sinabang, Indonesia",earthquake,,,,6,reviewed,us,us
+2005-03-21T17:51:18.320Z,2.554,95.978,30,4.6,mb,19,186.5,,0.74,us,usp000djr0,2014-11-07T01:25:17.533Z,"45 km W of Sinabang, Indonesia",earthquake,,,,8,reviewed,us,us
+2005-03-21T08:46:46.290Z,3.614,95.389,39.9,4.3,mb,12,202.2,,0.6,us,usp000djq2,2014-11-07T01:25:17.229Z,"100 km SW of Meulaboh, Indonesia",earthquake,,,,2,reviewed,us,us
+2005-03-20T21:32:07.190Z,1.509,97.764,30,4.3,mb,26,94.5,,0.78,us,usp000djng,2014-11-07T01:25:17.098Z,"86 km S of Singkil, Indonesia",earthquake,,,,7,reviewed,us,us
+2005-03-20T16:35:43.370Z,4.634,94.741,30,4.6,mb,20,133.2,,1.13,us,usp000djmz,2014-11-07T01:25:16.940Z,"119 km SSW of Banda Aceh, Indonesia",earthquake,,,,4,reviewed,us,us
+2005-03-20T04:51:27.420Z,2.677,95.708,30,4.3,mb,14,205.3,,0.44,us,usp000djm2,2014-11-07T01:25:16.790Z,"77 km WNW of Sinabang, Indonesia",earthquake,,,,3,reviewed,us,us
+2005-03-19T03:01:16.950Z,3.999,95.67,48,5.1,mwc,229,33.8,,0.76,us,usp000djh3,2022-05-02T17:50:32.112Z,"53 km WSW of Meulaboh, Indonesia",earthquake,,,,,reviewed,us,hrv
+2005-03-17T23:20:49.350Z,4.863,95.089,60.4,5.7,mwb,417,60.7,,0.74,us,usp000dje1,2022-07-14T17:15:46.050Z,"79 km SSW of Banda Aceh, Indonesia",earthquake,,6.9,,,reviewed,us,us
+2005-03-17T17:42:21.650Z,3.951,95.444,30,4.1,mb,16,186,,1.3,us,usp000djdg,2014-11-07T01:25:15.754Z,"78 km WSW of Meulaboh, Indonesia",earthquake,,,,6,reviewed,us,us
+2005-03-15T21:34:05.900Z,2.785,95.618,22.6,4.5,mb,26,139.6,,0.84,us,usp000dj9p,2014-11-07T01:25:14.779Z,"91 km WNW of Sinabang, Indonesia",earthquake,,,,14,reviewed,us,us
+2005-03-15T16:59:28.880Z,2.829,95.351,30,4.4,mb,15,205.4,,1.46,us,usp000dj99,2014-11-07T01:25:14.708Z,"120 km WNW of Sinabang, Indonesia",earthquake,,,,8,reviewed,us,us
+2005-03-15T10:07:08.720Z,2.634,95.93,30,4.9,mb,49,110.7,,1.02,us,usp000dj8q,2014-11-07T01:25:14.664Z,"52 km WNW of Sinabang, Indonesia",earthquake,,,,20,reviewed,us,us
+2005-03-14T19:12:26.580Z,3.846,95.819,30,4,mb,10,185.9,,1.09,us,usp000dj7e,2014-11-07T01:25:14.510Z,"47 km SW of Meulaboh, Indonesia",earthquake,,,,2,reviewed,us,us
+2005-03-14T09:37:09.980Z,0.693,100.053,154.9,4.5,mb,16,115.1,,0.6,us,usp000dj6a,2014-11-07T01:25:14.355Z,"115 km SE of Padangsidempuan, Indonesia",earthquake,,36.4,,2,reviewed,us,us
+2005-03-13T10:04:25.340Z,4.786,96.094,30,4.6,mb,12,154.2,,1.14,us,usp000dj3p,2014-11-07T01:25:13.889Z,"52 km SSW of Reuleuet, Indonesia",earthquake,,,,1,reviewed,us,us
+2005-03-12T18:03:53.950Z,3.397,96.469,30,4.6,mb,30,89.9,,0.8,us,usp000dj2m,2014-11-07T01:25:13.681Z,"90 km SSE of Meulaboh, Indonesia",earthquake,,,,19,reviewed,us,us
+2005-03-12T11:58:40.230Z,4.452,95.244,30,4.4,mb,18,133.2,,1.04,us,usp000dj21,2014-11-07T01:25:13.612Z,"103 km WNW of Meulaboh, Indonesia",earthquake,,,,4,reviewed,us,us
+2005-03-12T10:07:57.780Z,2.665,95.386,25.6,4.7,mb,17,205.5,,0.88,us,usp000dj1w,2014-11-07T01:25:13.605Z,"112 km W of Sinabang, Indonesia",earthquake,,,,6,reviewed,us,us
+2005-03-12T06:15:03.500Z,2.534,94.477,30,4.6,mb,15,187.4,,0.7,us,usp000dj1k,2014-11-07T01:25:13.550Z,"211 km W of Sinabang, Indonesia",earthquake,,,,4,reviewed,us,us
+2005-03-11T21:04:40.530Z,4.748,94.949,30,4.4,mb,28,90.2,,0.6,us,usp000dj0h,2014-11-07T01:25:13.457Z,"97 km SSW of Banda Aceh, Indonesia",earthquake,,,,13,reviewed,us,us
+2005-03-11T20:52:18.920Z,4.845,94.587,30,4.2,mb,14,188.2,,0.86,us,usp000dj0g,2014-11-07T01:25:13.455Z,"113 km SW of Banda Aceh, Indonesia",earthquake,,,,5,reviewed,us,us
+2005-03-11T10:40:58.860Z,2.261,95.161,27.4,4.6,mb,14,206.4,,0.82,us,usp000dhze,2014-11-07T01:25:13.291Z,"137 km W of Sinabang, Indonesia",earthquake,,,,5,reviewed,us,us
+2005-03-11T09:51:44.920Z,5.059,94.556,30,4.6,mb,32,172.9,,0.86,us,usp000dhz9,2014-11-07T01:25:13.278Z,"101 km WSW of Banda Aceh, Indonesia",earthquake,,,,13,reviewed,us,us
+2005-03-11T08:00:50.340Z,2.285,95.066,29.1,4.8,mwc,51,111.4,,0.67,us,usp000dhz6,2016-11-10T01:02:31.684Z,"147 km W of Sinabang, Indonesia",earthquake,,,,,reviewed,us,hrv
+2005-03-10T10:47:17.460Z,4.57,94.966,30,4.7,mb,19,188.2,,0.67,us,usp000dhxg,2014-11-07T01:25:13.094Z,"114 km SSW of Banda Aceh, Indonesia",earthquake,,,,6,reviewed,us,us
+2005-03-09T02:08:16.700Z,4.065,94.446,30,4.4,mb,11,191.1,,1.17,us,usp000dhue,2014-11-07T01:25:12.712Z,"186 km W of Meulaboh, Indonesia",earthquake,,,,4,reviewed,us,us
+2005-03-08T22:21:04.590Z,4.651,96.661,30,4.5,mb,14,109.7,,1.32,us,usp000dhu7,2014-11-07T01:25:12.677Z,"61 km S of Bireun, Indonesia",earthquake,,,,7,reviewed,us,us
+2005-03-08T17:33:24.830Z,5.047,94.163,47.9,4.3,mb,17,190.5,,1.4,us,usp000dhtu,2014-11-07T01:25:12.627Z,"140 km WSW of Banda Aceh, Indonesia",earthquake,,,,7,reviewed,us,us
+2005-03-08T09:44:14.200Z,2.424,95.915,25.2,4.7,mb,31,186.6,,1.09,us,usp000dhta,2014-11-07T01:25:12.540Z,"52 km W of Sinabang, Indonesia",earthquake,,,,19,reviewed,us,us
+2005-03-08T03:51:51.320Z,3.716,97.036,118.5,4.6,mb,10,178.5,,1.47,us,usp000dhsm,2014-11-07T01:25:12.450Z,"111 km ESE of Meulaboh, Indonesia",earthquake,,46.6,,2,reviewed,us,us
+2005-03-06T05:13:55.920Z,4.69,94.756,30,4.6,mb,29,181.9,,1.05,us,usp000dhmz,2014-11-07T01:25:11.562Z,"off the west coast of northern Sumatra",earthquake,,,,12,reviewed,us,us
+2005-03-04T11:07:46.350Z,0.869,98.822,97.9,4.7,mb,61,65,,1.09,us,usp000dhgs,2014-11-07T01:25:10.748Z,"75 km SW of Padangsidempuan, Indonesia",earthquake,,16,,28,reviewed,us,us
+2005-03-04T06:18:48.800Z,0.228,98.395,30,4.1,mb,9,208,,0.53,us,usp000dhg6,2014-11-07T01:25:10.665Z,"160 km SW of Padangsidempuan, Indonesia",earthquake,,,,1,reviewed,us,us
+2005-03-03T17:10:21.990Z,3.115,95.733,26.7,4.8,mwc,120,59.4,,0.82,us,usp000dhev,2016-11-09T05:37:26.609Z,"100 km NW of Sinabang, Indonesia",earthquake,,,,,reviewed,us,hrv
+2005-03-03T05:09:20.510Z,2.57,94.554,30,4.5,mb,24,181.1,,0.81,us,usp000dhdk,2014-11-07T01:25:10.119Z,"203 km W of Sinabang, Indonesia",earthquake,,,,6,reviewed,us,us
+2005-03-02T17:17:26.990Z,2.207,95.071,24,4.3,mb,9,206.2,,0.88,us,usp000dhcs,2014-11-07T01:25:09.913Z,"148 km WSW of Sinabang, Indonesia",earthquake,,,,2,reviewed,us,us
+2005-03-02T17:05:28.570Z,2.174,94.971,28.4,4.8,mb,25,181.1,,0.81,us,usp000dhcq,2014-11-07T01:25:09.900Z,"160 km WSW of Sinabang, Indonesia",earthquake,,,,9,reviewed,us,us
+2005-03-01T03:45:33.360Z,2.639,95.704,30,4.4,mb,18,209,,0.58,us,usp000dh8k,2014-11-07T01:25:07.750Z,"77 km WNW of Sinabang, Indonesia",earthquake,,,,6,reviewed,us,us
+2005-03-01T01:18:59.900Z,3.305,96.568,30,4.5,mb,9,212.4,,0.59,us,usp000dh85,2014-11-07T01:25:07.550Z,"93 km NNE of Sinabang, Indonesia",earthquake,,,,2,reviewed,us,us
+2005-02-27T21:39:03.090Z,2.62,95.576,23.1,4.4,mb,26,205.4,,0.76,us,usp000dh4a,2014-11-07T01:25:05.000Z,"90 km W of Sinabang, Indonesia",earthquake,,,,12,reviewed,us,us
+2005-02-27T17:42:44.040Z,2.427,95.716,20,4.4,mb,23,205.5,,0.79,us,usp000dh3r,2014-11-07T01:25:04.881Z,"74 km W of Sinabang, Indonesia",earthquake,,,,8,reviewed,us,us
+2005-02-26T17:01:18.290Z,2.865,95.443,30,4.8,mb,35,91.2,,1.05,us,usp000dh16,2014-11-07T01:25:04.213Z,"112 km WNW of Sinabang, Indonesia",earthquake,,,,17,reviewed,us,us
+2005-02-26T14:45:58.440Z,3.238,95.256,22.8,4.3,mb,18,191.3,,1.41,us,usp000dh0u,2014-11-07T01:25:04.185Z,"139 km SW of Meulaboh, Indonesia",earthquake,,,,6,reviewed,us,us
+2005-02-26T13:27:13.770Z,2.87,95.683,50.9,4.8,mb,41,71.6,,0.73,us,usp000dh0n,2014-11-07T01:25:04.161Z,"88 km WNW of Sinabang, Indonesia",earthquake,,13.5,,16,reviewed,us,us
+2005-02-26T12:56:52.620Z,2.908,95.592,36,6.8,mwb,444,33.8,,0.94,us,usp000dh0k,2022-05-02T17:49:44.980Z,"99 km WNW of Sinabang, Indonesia",earthquake,,6.4,,,reviewed,us,us
+2005-02-26T09:34:09.750Z,2.611,95.521,26.4,4.8,mb,39,111,,1,us,usp000dh05,2014-11-07T01:25:03.880Z,"96 km W of Sinabang, Indonesia",earthquake,,,,17,reviewed,us,us
+2005-02-26T07:10:54.810Z,4.592,94.577,30,4.4,mb,20,190.6,,0.89,us,usp000dgzx,2014-11-07T01:25:03.863Z,"134 km SW of Banda Aceh, Indonesia",earthquake,,,,3,reviewed,us,us
+2005-02-26T06:52:52.720Z,3.401,97.918,41.9,4.8,mb,56,60.4,,1.33,us,usp000dgzu,2014-11-07T01:25:03.852Z,"66 km WSW of Binjai, Indonesia",earthquake,,15.1,,24,reviewed,us,us

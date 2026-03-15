@@ -1,0 +1,3 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2015-04-25T06:11:25.950Z,28.2305,84.7314,8.22,7.8,mww,,12,1.857,0.96,us,us20002926,2025-08-07T10:31:11.955Z,"67 km NNE of Bharatpur, Nepal",earthquake,7.3,2.9,,,reviewed,us,us
+2015-04-02T00:56:38.960Z,28.7007,86.3309,57.33,4.6,mb,,75,4.31,0.54,us,us10001szi,2015-06-16T01:00:22.040Z,"89 km NNE of Kod?ri??, Nepal",earthquake,8.6,6.6,0.062,77,reviewed,us,us

@@ -1,0 +1,18 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2017-09-08T04:49:19.180Z,15.0222,-93.8993,47.39,8.2,mww,,22,0.944,1.22,us,us2000ahv0,2025-08-09T01:08:31.153Z,"2017 Tehuantepec, Mexico Earthquake",earthquake,6.2,3.7,0.058,29,reviewed,us,us
+2017-09-07T07:05:26.270Z,14.8451,-93.9031,35.34,4.4,mb,,158,2.063,1.21,us,us2000ahe0,2017-12-07T20:00:18.040Z,"103 km SW of El Palmarcito, Mexico",earthquake,7.7,10.7,0.077,49,reviewed,us,us
+2017-09-05T19:17:36.440Z,14.8967,-94.1545,31.44,4.5,mb,,159,2.074,1.3,us,us2000ag9g,2017-12-07T20:00:14.040Z,"117 km SSW of Manuel Ávila Camacho (Ponte Duro), Mexico",earthquake,6.3,6.2,0.047,131,reviewed,us,us
+2017-09-01T13:43:50.980Z,15.4479,-93.3366,96.63,4.1,mb,,151,0.279,1.1,us,us2000adu7,2017-11-28T18:33:56.040Z,"14 km WSW of El Palmarcito, Mexico",earthquake,7.5,12.5,0.117,20,reviewed,us,us
+2017-08-31T03:55:08.600Z,14.1799,-93.3667,10,4,mb,,186,1.522,1.18,us,us2000aehm,2017-11-28T18:33:54.040Z,"118 km WSW of Puerto Madero, Mexico",earthquake,6.6,2,0.212,6,reviewed,us,us
+2017-08-26T05:51:57.950Z,15.4615,-92.1793,175.22,4.1,mb,,122,0.668,0.68,us,us2000aeg2,2017-11-22T03:43:33.040Z,"2 km WNW of Bejucal de Ocampo, Mexico",earthquake,7.9,8.5,0.158,11,reviewed,us,us
+2017-08-24T16:42:43.900Z,14.1625,-93.3271,10,4.2,mb,,157,1.536,1.25,us,us2000abdr,2017-11-22T03:43:31.040Z,"115 km WSW of Puerto Madero, Mexico",earthquake,5.8,1.9,0.065,65,reviewed,us,us
+2017-08-24T16:18:34.280Z,14.241,-93.0635,18.18,4.3,mb,,165,1.355,0.86,us,us2000abdg,2017-11-22T03:43:31.040Z,"87 km SW of Puerto Madero, Mexico",earthquake,5.3,6.6,0.066,65,reviewed,us,us
+2017-08-24T05:09:53.650Z,14.4105,-93.3417,10,4.1,mb,,175,1.292,1.18,us,us2000ab7f,2017-11-22T03:43:30.040Z,"104 km WSW of Puerto Madero, Mexico",earthquake,5.3,2,0.061,73,reviewed,us,us
+2017-08-22T22:22:21.150Z,14.456,-93.1602,38.17,4.5,mb,,108,1.242,0.77,us,us2000aasv,2025-12-22T17:25:44.905Z,"84 km WSW of Puerto Madero, Mexico",earthquake,4.1,6.6,0.055,97,reviewed,us,us
+2017-08-22T22:14:57.320Z,14.29,-93.1787,34.24,4.9,mb,,107,1.407,0.71,us,us2000aasp,2025-12-22T16:52:45.188Z,"94 km WSW of Puerto Madero, Mexico",earthquake,5.9,5.1,0.051,119,reviewed,us,us
+2017-08-21T21:28:27.600Z,14.3663,-93.2291,10,4.3,mb,,179,1.33,1.09,us,us2000aaf2,2017-11-22T03:43:27.040Z,"95 km WSW of Puerto Madero, Mexico",earthquake,6.4,2,0.063,72,reviewed,us,us
+2017-08-21T18:39:46.340Z,16.2959,-92.8368,226.21,4.2,mb,,64,0.552,1.2,us,us2000abnz,2017-11-22T03:43:27.040Z,"13 km E of Jericó, Mexico",earthquake,6.1,6.4,0.124,18,reviewed,us,us
+2017-08-21T13:59:31.850Z,14.3676,-93.0916,10,5.3,mww,,108,1.335,0.89,us,us2000aa6g,2025-12-22T17:25:43.826Z,"near the coast of Chiapas, Mexico",earthquake,7.4,1.9,0.055,32,reviewed,us,us
+2017-08-11T01:07:17.190Z,13.9489,-92.4402,27.51,4.5,mb,,153,0.921,1.24,us,us2000a763,2017-10-25T00:38:07.040Z,"67 km SSW of Ocós, Guatemala",earthquake,6.8,6.8,0.036,228,reviewed,us,us
+2017-08-10T09:53:09.930Z,14.6251,-92.5018,70.58,4.3,mb,,156,0.787,1.44,us,us2000a6uj,2022-08-07T14:24:48.151Z,"13 km SW of Puerto Madero, Mexico",earthquake,7,7.1,0.059,80,reviewed,us,us
+2017-08-09T09:05:13.330Z,14.4507,-92.6844,41.2,4.1,mb,,169,0.961,0.83,us,us2000a6au,2017-10-25T00:38:04.040Z,"near the coast of Chiapas, Mexico",earthquake,5.9,12.6,0.08,42,reviewed,us,us

@@ -1,0 +1,8 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2001-06-19T05:47:11.100Z,-17.162,-72.74,33,3.9,mb,9,,,1.11,us,usp000agx5,2014-11-07T01:13:05.105Z,"59 km SSW of Quilca, Peru",earthquake,,,,1,reviewed,us,us
+2001-06-17T14:07:04.170Z,-15.721,-73.378,90.2,3.9,mb,15,,,1.25,us,usp000ague,2014-11-07T01:13:04.713Z,"26 km SSE of Cahuacho, Peru",earthquake,,,,3,reviewed,us,us
+2001-06-12T05:55:04.920Z,-17.449,-73.197,33,4.3,mb,10,,,1.42,us,usp000agfv,2014-11-07T01:13:02.316Z,"104 km SSW of Camaná, Peru",earthquake,,,,2,reviewed,us,us
+2001-06-03T07:11:17.000Z,-14.187,-73.005,86.4,3.7,mb,9,,,1.05,us,usp000afyr,2014-11-07T01:12:57.280Z,"4 km NNE of Pachaconas, Peru",earthquake,,12.5,,3,reviewed,us,us
+2001-05-28T06:41:27.180Z,-16.223,-74.048,42.2,4.9,mb,87,,,1.02,us,usp000afnz,2014-11-07T01:12:51.589Z,"45 km W of Atico, Peru",earthquake,,9.9,,40,reviewed,us,us
+2001-05-27T11:20:59.860Z,-16.246,-74.015,49,3.7,mb,8,,,1.09,us,usp000afn0,2014-11-07T01:12:51.504Z,"42 km W of Atico, Peru",earthquake,,,,2,reviewed,us,us
+2001-05-26T17:44:07.040Z,-15.529,-75.49,33,4.2,mb,12,,,1.42,us,usp000afkw,2014-11-07T01:12:51.235Z,"39 km WSW of San Juan, Peru",earthquake,,,,2,reviewed,us,us

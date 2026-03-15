@@ -1,0 +1,97 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2007-01-12T11:06:15.760Z,46.446,153.194,10,4.6,mb,21,136.3,,0.77,us,usp000f296,2014-11-07T01:31:21.126Z,"Kuril Islands",earthquake,,,,2,reviewed,us,us
+2007-01-11T08:32:55.200Z,45.868,154.897,10,3.6,mb,14,138.7,,0.98,us,usp000f26a,2014-11-07T01:31:20.840Z,"east of the Kuril Islands",earthquake,,0,,2,reviewed,us,us
+2007-01-10T22:53:50.980Z,46.847,152.771,10,4.4,mb,37,137.8,,0.71,us,usp000f255,2014-11-07T01:31:20.716Z,"Kuril Islands",earthquake,,,,5,reviewed,us,us
+2007-01-10T18:19:06.320Z,46.429,153.364,9.6,4.9,mwc,167,49.6,,0.81,us,usp000f24n,2016-11-10T01:33:22.398Z,"Kuril Islands",earthquake,,12.2,,,reviewed,us,gcmt
+2007-01-10T00:42:17.800Z,48.227,154.671,10,4.1,mb,19,135.8,,0.46,us,usp000f22v,2014-11-07T01:31:20.470Z,"292 km SSW of Severo-Kuril’sk, Russia",earthquake,,,,1,reviewed,us,us
+2007-01-09T21:52:43.450Z,46.851,152.874,72.7,4.3,mb,32,119.3,,0.88,us,usp000f22d,2014-11-07T01:31:20.423Z,"Kuril Islands",earthquake,,11.1,,9,reviewed,us,us
+2007-01-09T20:28:46.150Z,46.23,153.014,10,5.1,mb,201,93.9,,0.81,us,usp000f229,2014-11-07T01:31:20.382Z,"Kuril Islands",earthquake,,,,105,reviewed,us,us
+2007-01-08T15:49:45.580Z,47.351,153.083,101.5,4.6,mb,73,111.5,,0.79,us,usp000f1zm,2014-11-07T01:31:19.937Z,"Kuril Islands",earthquake,,7.3,,31,reviewed,us,us
+2007-01-08T05:36:07.110Z,46.326,152.976,10,4.7,mb,17,136.3,,0.81,us,usp000f1ye,2014-11-07T01:31:19.805Z,"Kuril Islands",earthquake,,,,1,reviewed,us,us
+2007-01-07T08:01:39.980Z,47.048,153.885,10,5,mwc,158,100.8,,0.83,us,usp000f1vm,2025-12-22T14:59:04.769Z,"Kuril Islands",earthquake,,,,,reviewed,us,gcmt
+2007-01-07T06:56:15.800Z,46.211,152.901,10,4.6,mb,36,102.4,,1.27,us,usp000f1vf,2014-11-07T01:31:19.527Z,"Kuril Islands",earthquake,,,,11,reviewed,us,us
+2007-01-07T02:17:46.300Z,46.719,154.931,10,4,mb,9,138.5,,1.11,us,usp000f1us,2014-11-07T01:31:19.466Z,"east of the Kuril Islands",earthquake,,,,1,reviewed,us,us
+2007-01-06T15:30:52.810Z,46.594,154.824,23.6,4.4,mb,27,136.9,,0.94,us,usp000f1u2,2014-11-07T01:31:19.328Z,"east of the Kuril Islands",earthquake,,22.1,,6,reviewed,us,us
+2007-01-05T00:35:35.280Z,46.597,155.249,54.8,4.3,mb,39,126.2,,1.12,us,usp000f1qp,2014-11-07T01:31:18.552Z,"east of the Kuril Islands",earthquake,,11.3,,11,reviewed,us,us
+2007-01-04T00:19:48.830Z,47.165,153.88,10,4.9,mwc,117,89.8,,0.91,us,usp000f1nt,2016-11-10T01:33:00.164Z,"Kuril Islands",earthquake,,,,,reviewed,us,gcmt
+2007-01-03T22:57:04.200Z,46.892,154.808,10,4.3,mb,30,135.7,,0.75,us,usp000f1ne,2014-11-07T01:31:18.013Z,"east of the Kuril Islands",earthquake,,,,7,reviewed,us,us
+2007-01-03T15:36:47.870Z,45.958,151.899,10,4.7,mb,16,137.8,,1.29,us,usp000f1mu,2014-11-07T01:31:17.940Z,"Kuril Islands",earthquake,,,,1,reviewed,us,us
+2007-01-03T02:10:30.340Z,46.333,152.954,10,4.3,mb,20,136.3,,0.6,us,usp000f1ks,2014-11-07T01:31:17.505Z,"Kuril Islands",earthquake,,,,4,reviewed,us,us
+2007-01-02T20:19:04.060Z,47.389,155.665,10,5,mb,149,96.3,,0.81,us,usp000f1ka,2014-11-07T01:31:17.239Z,"east of the Kuril Islands",earthquake,,,,75,reviewed,us,us
+2007-01-02T19:35:03.080Z,46.6,152.559,31.2,4.8,mb,69,91.4,,0.87,us,usp000f1k7,2014-11-07T01:31:17.178Z,"Kuril Islands",earthquake,,,,34,reviewed,us,us
+2007-01-02T15:00:03.560Z,47.534,155.678,10,4.1,mb,8,163,,0.59,us,usp000f1jr,2014-11-07T01:31:17.017Z,"east of the Kuril Islands",earthquake,,,,2,reviewed,us,us
+2007-01-02T13:36:41.950Z,47.347,155.619,10,5.1,mwc,111,96.2,,0.87,us,usp000f1jm,2025-12-22T14:58:53.092Z,"east of the Kuril Islands",earthquake,,,,,reviewed,us,gcmt
+2007-01-01T15:18:58.090Z,46.192,153.054,6,4.4,mb,19,136.4,,0.64,us,usp000f1gz,2014-11-07T01:31:16.497Z,"Kuril Islands",earthquake,,36.1,,2,reviewed,us,us
+2007-01-01T10:42:48.260Z,46.758,155.566,10,4.4,mb,28,59.9,,0.91,us,usp000f1gh,2014-11-07T01:31:16.243Z,"east of the Kuril Islands",earthquake,,,,5,reviewed,us,us
+2007-01-01T10:34:37.900Z,47.096,152.603,10,4.7,mb,21,103.6,,1.09,us,usp000f1gf,2014-11-07T01:31:16.222Z,"Kuril Islands",earthquake,,,,2,reviewed,us,us
+2007-01-01T03:29:53.710Z,46.253,152.965,10,4.4,mb,19,144.8,,0.9,us,usp000f1g2,2014-11-07T01:31:16.082Z,"Kuril Islands",earthquake,,,,5,reviewed,us,us
+2006-12-31T14:51:21.100Z,46.765,152.511,10,4.5,mb,8,161.4,,0.19,us,usp000f1ed,2014-11-07T01:31:13.612Z,"Kuril Islands",earthquake,,0,,1,reviewed,us,us
+2006-12-30T22:10:43.400Z,46.76,152.444,10,4.6,mb,70,103.1,,0.9,us,usp000f1c9,2014-11-07T01:31:13.404Z,"Kuril Islands",earthquake,,,,24,reviewed,us,us
+2006-12-30T19:53:40.820Z,46.499,153.055,10,4.5,mb,29,102.9,,1,us,usp000f1by,2014-11-07T01:31:13.386Z,"Kuril Islands",earthquake,,,,10,reviewed,us,us
+2006-12-30T19:48:36.950Z,46.745,152.719,2.5,4.8,mb,135,103.1,,0.81,us,usp000f1bx,2014-11-07T01:31:13.376Z,"Kuril Islands",earthquake,,14.9,,53,reviewed,us,us
+2006-12-30T11:22:46.050Z,46.745,155.49,10,5,mb,170,64.3,,0.75,us,usp000f1ay,2014-11-07T01:31:13.243Z,"east of the Kuril Islands",earthquake,,,,82,reviewed,us,us
+2006-12-30T11:16:34.050Z,46.745,155.505,10,5.3,mb,272,83.3,,0.83,us,usp000f1ax,2014-11-07T01:31:13.223Z,"east of the Kuril Islands",earthquake,,,,137,reviewed,us,us
+2006-12-30T09:17:56.160Z,46.347,153.175,10,4.5,mb,30,102.7,,0.88,us,usp000f1ah,2014-11-07T01:31:13.179Z,"Kuril Islands",earthquake,,,,6,reviewed,us,us
+2006-12-29T17:37:26.060Z,46.695,153.675,10,4.5,mb,28,138.1,,1.13,us,usp000f193,2014-11-07T01:31:13.001Z,"Kuril Islands",earthquake,,,,13,reviewed,us,us
+2006-12-29T10:18:33.350Z,46.62,153.244,10,4.9,mb,26,136.3,,1.29,us,usp000f18n,2014-11-07T01:31:12.968Z,"Kuril Islands",earthquake,,,,7,reviewed,us,us
+2006-12-28T20:48:11.370Z,47.077,155.751,10,4.7,mb,25,136.9,,0.94,us,usp000f178,2014-11-07T01:31:12.840Z,"east of the Kuril Islands",earthquake,,,,10,reviewed,us,us
+2006-12-28T18:06:23.510Z,46.702,152.793,10,4.7,mb,15,219.3,,0.62,us,usp000f16z,2014-11-07T01:31:12.821Z,"Kuril Islands",earthquake,,,,3,reviewed,us,us
+2006-12-28T07:19:39.150Z,46.547,155.027,10,4,mb,20,138.5,,0.55,us,usp000f167,2014-11-07T01:31:12.757Z,"east of the Kuril Islands",earthquake,,,,2,reviewed,us,us
+2006-12-28T05:49:53.850Z,47.058,155.778,10,4.3,mb,17,104.5,,0.42,us,usp000f160,2014-11-07T01:31:12.743Z,"east of the Kuril Islands",earthquake,,,,4,reviewed,us,us
+2006-12-28T00:15:08.600Z,47.107,155.708,10,4.6,mb,48,104.6,,0.66,us,usp000f15b,2014-11-07T01:31:12.447Z,"east of the Kuril Islands",earthquake,,,,18,reviewed,us,us
+2006-12-27T19:09:00.590Z,46.092,154.531,10,4.1,mb,14,146.1,,0.51,us,usp000f14v,2014-11-07T01:31:12.383Z,"east of the Kuril Islands",earthquake,,,,2,reviewed,us,us
+2006-12-27T17:40:25.940Z,46.88,155.425,10,4.1,mb,18,136.9,,0.93,us,usp000f14n,2014-11-07T01:31:12.368Z,"east of the Kuril Islands",earthquake,,,,1,reviewed,us,us
+2006-12-26T15:20:38.070Z,46.355,154.74,10,5.4,mb,30,76.1,,1,us,usp000f11u,2014-11-07T01:31:11.946Z,"east of the Kuril Islands",earthquake,,,,6,reviewed,us,us
+2006-12-26T15:19:45.210Z,48.321,154.837,10,6,mwc,456,57.9,,0.75,us,usp000f11t,2022-05-02T18:34:10.384Z,"278 km SSW of Severo-Kuril’sk, Russia",earthquake,,,,,reviewed,us,gcmt
+2006-12-26T10:39:59.700Z,46.957,152.915,10,4.9,mb,44,101.7,,0.88,us,usp000f10v,2014-11-07T01:31:11.639Z,"Kuril Islands",earthquake,,,,9,reviewed,us,us
+2006-12-26T07:57:55.620Z,46.318,154.364,10,4.8,mb,111,128.2,,0.91,us,usp000f10p,2014-11-07T01:31:11.620Z,"east of the Kuril Islands",earthquake,,,,51,reviewed,us,us
+2006-12-25T21:08:31.790Z,47.281,152.714,10,4.3,mb,23,135.7,,0.82,us,usp000f0zs,2014-11-07T01:31:11.538Z,"Kuril Islands",earthquake,,,,1,reviewed,us,us
+2006-12-25T20:28:25.850Z,46.86,152.624,10,5.1,mb,33,119.3,,0.85,us,usp000f0zp,2014-11-07T01:31:11.529Z,"Kuril Islands",earthquake,,,,11,reviewed,us,us
+2006-12-25T15:37:43.730Z,47.01,152.752,10,4.8,mb,143,83.1,,0.84,us,usp000f0z6,2014-11-07T01:31:11.428Z,"Kuril Islands",earthquake,,,,66,reviewed,us,us
+2006-12-24T01:30:26.190Z,47.178,153.346,10,4.1,mb,12,169.4,,1.47,us,usp000f0v8,2014-11-07T01:31:10.936Z,"Kuril Islands",earthquake,,,,1,reviewed,us,us
+2006-12-23T17:56:53.990Z,46.842,155.421,10,4.9,mwc,98,92.9,,0.89,us,usp000f0up,2016-11-10T01:32:38.712Z,"east of the Kuril Islands",earthquake,,,,,reviewed,us,gcmt
+2006-12-23T10:36:22.150Z,46.982,153.163,10,3.9,mb,24,136,,0.95,us,usp000f0u4,2014-11-07T01:31:10.801Z,"Kuril Islands",earthquake,,,,2,reviewed,us,us
+2006-12-23T08:11:59.250Z,46.61,154.931,10,4.7,mb,39,136.9,,1.11,us,usp000f0ty,2014-11-07T01:31:10.790Z,"east of the Kuril Islands",earthquake,,,,11,reviewed,us,us
+2006-12-22T12:51:53.770Z,46.885,152.639,100.7,4.5,mb,17,137.8,,0.51,us,usp000f0sn,2014-11-07T01:31:10.630Z,"Kuril Islands",earthquake,,8.8,,2,reviewed,us,us
+2006-12-22T07:37:09.430Z,47.524,152.978,10,4.3,mb,18,167.6,,1.26,us,usp000f0s8,2014-11-07T01:31:10.564Z,"Kuril Islands",earthquake,,,,2,reviewed,us,us
+2006-12-22T05:31:05.620Z,46.317,154.295,10,4,mb,12,136.8,,0.71,us,usp000f0s5,2014-11-07T01:31:10.559Z,"east of the Kuril Islands",earthquake,,,,1,reviewed,us,us
+2006-12-22T03:46:55.340Z,46.503,154.697,10,4.6,mb,43,138.5,,0.8,us,usp000f0rz,2014-11-07T01:31:10.543Z,"east of the Kuril Islands",earthquake,,,,16,reviewed,us,us
+2006-12-21T09:29:20.020Z,46.88,155.317,10,4.4,mb,23,136.9,,1.05,us,usp000f0q5,2014-11-07T01:31:10.369Z,"east of the Kuril Islands",earthquake,,,,5,reviewed,us,us
+2006-12-21T08:59:01.750Z,46.807,153.067,10,4.5,mb,35,133.1,,1.26,us,usp000f0q1,2014-11-07T01:31:10.357Z,"Kuril Islands",earthquake,,,,3,reviewed,us,us
+2006-12-21T07:06:54.360Z,46.836,155.9,10,4.3,mb,12,209.2,,0.92,us,usp000f0pu,2014-11-07T01:31:10.348Z,"east of the Kuril Islands",earthquake,,,,1,reviewed,us,us
+2006-12-21T04:39:05.480Z,47.633,152.299,10,4.1,mb,10,161.2,,1.1,us,usp000f0ph,2014-11-07T01:31:10.328Z,"Kuril Islands",earthquake,,,,2,reviewed,us,us
+2006-12-21T03:02:11.630Z,47.174,154.989,10,4.3,mb,21,138.3,,0.99,us,usp000f0pd,2014-11-07T01:31:10.320Z,"Kuril Islands",earthquake,,,,8,reviewed,us,us
+2006-12-20T23:18:22.300Z,47.786,154.047,10,4.7,mb,88,93.7,,0.91,us,usp000f0p3,2014-11-07T01:31:10.274Z,"Kuril Islands",earthquake,,,,39,reviewed,us,us
+2006-12-20T20:47:16.550Z,46.12,154.483,10,4.3,mb,23,137,,1.2,us,usp000f0nu,2014-11-07T01:31:10.256Z,"east of the Kuril Islands",earthquake,,,,5,reviewed,us,us
+2006-12-20T14:47:50.930Z,46.891,152.681,82.2,4.4,mb,26,135.9,,0.75,us,usp000f0n7,2014-11-07T01:31:10.214Z,"Kuril Islands",earthquake,,7.9,,4,reviewed,us,us
+2006-12-20T08:28:20.650Z,47.255,152.7,10,4.8,mb,74,127.3,,0.78,us,usp000f0mn,2014-11-07T01:31:10.164Z,"Kuril Islands",earthquake,,,,26,reviewed,us,us
+2006-12-20T06:11:30.500Z,46.277,154.303,10,4.4,mb,16,136.9,,1.04,us,usp000f0mc,2014-11-07T01:31:10.144Z,"east of the Kuril Islands",earthquake,,,,4,reviewed,us,us
+2006-12-19T19:36:55.050Z,47.486,155.833,10,4.6,mb,46,128,,0.96,us,usp000f0k8,2014-11-07T01:31:10.036Z,"east of the Kuril Islands",earthquake,,,,16,reviewed,us,us
+2006-12-19T06:43:30.850Z,46.233,151.954,10,4.7,mb,57,136,,1.09,us,usp000f0j2,2014-11-07T01:31:09.915Z,"Kuril Islands",earthquake,,,,24,reviewed,us,us
+2006-12-18T18:54:39.280Z,46.693,152.9,10,4.2,mb,18,135.9,,0.95,us,usp000f0gq,2014-11-07T01:31:09.789Z,"Kuril Islands",earthquake,,,,1,reviewed,us,us
+2006-12-18T05:24:38.640Z,47.2,153.545,10,4.3,mb,18,119.8,,0.9,us,usp000f0fk,2014-11-07T01:31:09.697Z,"Kuril Islands",earthquake,,,,1,reviewed,us,us
+2006-12-18T02:21:53.210Z,46.73,155.357,10,4.6,mb,27,128.3,,1.07,us,usp000f0f9,2014-11-07T01:31:09.671Z,"east of the Kuril Islands",earthquake,,,,9,reviewed,us,us
+2006-12-17T20:54:51.230Z,46.915,154.784,10,3.9,mb,21,138.3,,0.9,us,usp000f0em,2014-11-07T01:31:09.512Z,"east of the Kuril Islands",earthquake,,,,8,reviewed,us,us
+2006-12-17T19:24:12.040Z,46.789,154.814,10,4.8,mb,51,95.2,,1.03,us,usp000f0ee,2014-11-07T01:31:09.490Z,"east of the Kuril Islands",earthquake,,,,32,reviewed,us,us
+2006-12-17T08:41:40.020Z,46.817,153.024,10,5,mwc,101,136.1,,1.09,us,usp000f0dd,2025-12-22T15:00:45.306Z,"Kuril Islands",earthquake,,,,,reviewed,us,gcmt
+2006-12-16T22:46:37.660Z,47.177,152.924,10,4.6,mb,24,135.8,,1.33,us,usp000f0cj,2014-11-07T01:31:09.038Z,"Kuril Islands",earthquake,,,,2,reviewed,us,us
+2006-12-16T22:20:55.920Z,46.343,153.057,10,4.5,mb,16,210.2,,1.06,us,usp000f0ce,2014-11-07T01:31:09.029Z,"Kuril Islands",earthquake,,,,3,reviewed,us,us
+2006-12-16T20:37:24.540Z,46.733,154.76,10,4.3,mb,9,138.4,,1.44,us,usp000f0c5,2014-11-07T01:31:08.995Z,"east of the Kuril Islands",earthquake,,,,2,reviewed,us,us
+2006-12-16T16:03:35.890Z,46.316,153.19,10,4.3,mb,20,138.1,,0.96,us,usp000f0by,2014-11-07T01:31:08.952Z,"Kuril Islands",earthquake,,,,4,reviewed,us,us
+2006-12-16T05:53:51.680Z,47.824,153.536,10,4,mb,12,136.2,,0.67,us,usp000f0as,2014-11-07T01:31:08.852Z,"Kuril Islands",earthquake,,,,1,reviewed,us,us
+2006-12-16T04:55:38.750Z,46.793,153.038,10,3.9,mb,23,119.2,,0.81,us,usp000f0ak,2014-11-07T01:31:08.836Z,"Kuril Islands",earthquake,,,,1,reviewed,us,us
+2006-12-15T23:36:10.810Z,46.901,154.92,10,4.5,mb,27,138.4,,1.58,us,usp000f09t,2014-11-07T01:31:08.757Z,"east of the Kuril Islands",earthquake,,,,3,reviewed,us,us
+2006-12-15T22:31:12.020Z,47.457,155.272,10,4.7,mb,18,138.3,,0.81,us,usp000f09n,2014-11-07T01:31:08.716Z,"east of the Kuril Islands",earthquake,,,,3,reviewed,us,us
+2006-12-15T17:01:09.580Z,46.387,153.058,10,5.3,mwc,305,82,,0.83,us,usp000f098,2025-12-22T15:06:29.296Z,"Kuril Islands",earthquake,,,,,reviewed,us,gcmt
+2006-12-15T16:59:02.390Z,46.407,153.042,10,5.6,mwc,493,82,,0.84,us,usp000f097,2022-05-02T15:39:49.701Z,"Kuril Islands",earthquake,,,,,reviewed,us,gcmt
+2006-12-15T16:36:54.570Z,47.126,152.684,10,4.5,mb,36,103.7,,1.17,us,usp000f094,2014-11-07T01:31:08.571Z,"Kuril Islands",earthquake,,,,15,reviewed,us,us
+2006-12-15T09:05:11.250Z,46.407,152.967,10,3.8,mb,22,138,,0.85,us,usp000f08m,2014-11-07T01:31:08.499Z,"Kuril Islands",earthquake,,,,1,reviewed,us,us
+2006-12-14T21:10:19.300Z,47.122,152.95,10,4,mb,16,135.9,,0.85,us,usp000f07j,2014-11-07T01:31:08.386Z,"Kuril Islands",earthquake,,,,2,reviewed,us,us
+2006-12-14T17:50:35.260Z,46.215,154.401,10,4.6,mb,41,102.9,,0.76,us,usp000f078,2014-11-07T01:31:08.359Z,"east of the Kuril Islands",earthquake,,,,16,reviewed,us,us
+2006-12-14T16:30:11.700Z,47.557,155.218,10,4.7,mb,41,136.4,,1,us,usp000f074,2014-11-07T01:31:08.344Z,"east of the Kuril Islands",earthquake,,,,18,reviewed,us,us
+2006-12-14T13:59:39.830Z,46.732,152.87,10,4.6,mb,58,136.1,,0.88,us,usp000f06x,2014-11-07T01:31:08.317Z,"Kuril Islands",earthquake,,,,20,reviewed,us,us
+2006-12-14T10:46:22.430Z,47.394,153.015,10,5.1,mb,208,114.6,,0.81,us,usp000f06p,2014-11-07T01:31:08.271Z,"Kuril Islands",earthquake,,,,105,reviewed,us,us
+2006-12-14T09:41:49.300Z,48.331,154.287,10,3.9,mb,17,135.6,,1.19,us,usp000f06k,2014-11-07T01:31:08.262Z,"292 km SSW of Severo-Kuril’sk, Russia",earthquake,,,,2,reviewed,us,us
+2006-12-14T09:40:03.110Z,47.319,156.163,10,4.4,mb,9,138.6,,0.61,us,usp000f06j,2014-11-07T01:31:08.261Z,"east of the Kuril Islands",earthquake,,,,1,reviewed,us,us
+2006-12-14T07:43:01.800Z,47.077,152.587,10,5.1,mb,201,83.2,,0.73,us,usp000f06b,2014-11-07T01:31:08.237Z,"Kuril Islands",earthquake,,,,95,reviewed,us,us
+2006-12-14T02:53:57.910Z,46.018,152.762,9.2,4.6,mb,41,102,,1.06,us,usp000f05x,2014-11-07T01:31:08.198Z,"Kuril Islands",earthquake,,31.9,,11,reviewed,us,us

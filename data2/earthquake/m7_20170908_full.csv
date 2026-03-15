@@ -1,0 +1,26 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2017-09-07T07:05:26.270Z,14.8451,-93.9031,35.34,4.4,mb,,158,2.063,1.21,us,us2000ahe0,2017-12-07T20:00:18.040Z,"103 km SW of El Palmarcito, Mexico",earthquake,7.7,10.7,0.077,49,reviewed,us,us
+2017-09-05T19:17:36.440Z,14.8967,-94.1545,31.44,4.5,mb,,159,2.074,1.3,us,us2000ag9g,2017-12-07T20:00:14.040Z,"117 km SSW of Manuel Ávila Camacho (Ponte Duro), Mexico",earthquake,6.3,6.2,0.047,131,reviewed,us,us
+2017-09-04T04:59:46.900Z,15.8162,-95.5901,18.69,4,mb,,141,0.501,0.91,us,us2000arra,2017-12-07T20:00:09.040Z,"21 km SSE of Santiago Astata, Mexico",earthquake,6,7.1,0.079,43,reviewed,us,us
+2017-09-03T00:06:46.420Z,16.2746,-95.7712,57.27,4.5,mb,,94,0.598,0.87,us,us2000ay23,2017-12-07T20:00:04.040Z,"5 km WSW of Asunción Tlacolulita, Mexico",earthquake,3.8,13.3,0.243,5,reviewed,us,us
+2017-09-01T13:43:50.980Z,15.4479,-93.3366,96.63,4.1,mb,,151,0.279,1.1,us,us2000adu7,2017-11-28T18:33:56.040Z,"14 km WSW of El Palmarcito, Mexico",earthquake,7.5,12.5,0.117,20,reviewed,us,us
+2017-08-31T07:08:41.390Z,13.8361,-91.5323,40.77,4.3,mb,,150,0.702,1.27,us,us2000ade2,2017-11-28T18:33:54.040Z,"47 km SSW of Nueva Concepción, Guatemala",earthquake,7.9,12.4,0.089,36,reviewed,us,us
+2017-08-31T06:45:24.220Z,13.8871,-91.4558,35,4.2,mb,,197,0.674,0.67,us,us2000ade4,2017-11-28T18:33:54.040Z,"38 km SSW of Nueva Concepción, Guatemala",earthquake,4.7,2,0.098,29,reviewed,us,us
+2017-08-31T05:48:32.240Z,13.7712,-91.5264,35,5,mb,,94,0.766,0.8,us,us2000addm,2022-05-03T18:36:13.001Z,"53 km SSW of Nueva Concepción, Guatemala",earthquake,6.5,2,0.026,488,reviewed,us,us
+2017-08-31T03:55:08.600Z,14.1799,-93.3667,10,4,mb,,186,1.522,1.18,us,us2000aehm,2017-11-28T18:33:54.040Z,"118 km WSW of Puerto Madero, Mexico",earthquake,6.6,2,0.212,6,reviewed,us,us
+2017-08-30T03:04:48.420Z,13.923,-91.3229,36.62,4.2,mb,,187,0.698,0.96,us,us2000ad2d,2017-11-28T18:33:52.040Z,"30 km S of Nueva Concepción, Guatemala",earthquake,7.7,13.9,0.063,70,reviewed,us,us
+2017-08-26T23:56:39.680Z,17.0066,-95.5814,97.74,4.2,mb,,81,0.672,1.21,us,us2000aege,2017-11-22T03:43:34.040Z,"2 km ESE of Santiago Malacatepec, Mexico",earthquake,4.9,7.8,0.096,30,reviewed,us,us
+2017-08-26T23:33:13.100Z,14.3858,-91.9025,75.77,4.7,mb,,87,0.244,0.77,us,us2000ac50,2022-08-07T15:39:59.348Z,"10 km N of Champerico, Guatemala",earthquake,8.7,5.1,0.057,94,reviewed,us,us
+2017-08-26T05:51:57.950Z,15.4615,-92.1793,175.22,4.1,mb,,122,0.668,0.68,us,us2000aeg2,2017-11-22T03:43:33.040Z,"2 km WNW of Bejucal de Ocampo, Mexico",earthquake,7.9,8.5,0.158,11,reviewed,us,us
+2017-08-24T16:42:43.900Z,14.1625,-93.3271,10,4.2,mb,,157,1.536,1.25,us,us2000abdr,2017-11-22T03:43:31.040Z,"115 km WSW of Puerto Madero, Mexico",earthquake,5.8,1.9,0.065,65,reviewed,us,us
+2017-08-24T16:18:34.280Z,14.241,-93.0635,18.18,4.3,mb,,165,1.355,0.86,us,us2000abdg,2017-11-22T03:43:31.040Z,"87 km SW of Puerto Madero, Mexico",earthquake,5.3,6.6,0.066,65,reviewed,us,us
+2017-08-24T05:09:53.650Z,14.4105,-93.3417,10,4.1,mb,,175,1.292,1.18,us,us2000ab7f,2017-11-22T03:43:30.040Z,"104 km WSW of Puerto Madero, Mexico",earthquake,5.3,2,0.061,73,reviewed,us,us
+2017-08-22T22:22:21.150Z,14.456,-93.1602,38.17,4.5,mb,,108,1.242,0.77,us,us2000aasv,2025-12-22T17:25:44.905Z,"84 km WSW of Puerto Madero, Mexico",earthquake,4.1,6.6,0.055,97,reviewed,us,us
+2017-08-22T22:14:57.320Z,14.29,-93.1787,34.24,4.9,mb,,107,1.407,0.71,us,us2000aasp,2025-12-22T16:52:45.188Z,"94 km WSW of Puerto Madero, Mexico",earthquake,5.9,5.1,0.051,119,reviewed,us,us
+2017-08-21T21:28:27.600Z,14.3663,-93.2291,10,4.3,mb,,179,1.33,1.09,us,us2000aaf2,2017-11-22T03:43:27.040Z,"95 km WSW of Puerto Madero, Mexico",earthquake,6.4,2,0.063,72,reviewed,us,us
+2017-08-21T18:39:46.340Z,16.2959,-92.8368,226.21,4.2,mb,,64,0.552,1.2,us,us2000abnz,2017-11-22T03:43:27.040Z,"13 km E of Jericó, Mexico",earthquake,6.1,6.4,0.124,18,reviewed,us,us
+2017-08-21T13:59:31.850Z,14.3676,-93.0916,10,5.3,mww,,108,1.335,0.89,us,us2000aa6g,2025-12-22T17:25:43.826Z,"near the coast of Chiapas, Mexico",earthquake,7.4,1.9,0.055,32,reviewed,us,us
+2017-08-20T23:28:57.090Z,14.0033,-91.8497,16,5.3,mww,,115,1.349,1.22,us,us2000aa12,2022-08-07T15:18:13.174Z,"32 km SSE of Champerico, Guatemala",earthquake,6.1,1.8,0.063,24,reviewed,us,us
+2017-08-11T01:07:17.190Z,13.9489,-92.4402,27.51,4.5,mb,,153,0.921,1.24,us,us2000a763,2017-10-25T00:38:07.040Z,"67 km SSW of Ocós, Guatemala",earthquake,6.8,6.8,0.036,228,reviewed,us,us
+2017-08-10T09:53:09.930Z,14.6251,-92.5018,70.58,4.3,mb,,156,0.787,1.44,us,us2000a6uj,2022-08-07T14:24:48.151Z,"13 km SW of Puerto Madero, Mexico",earthquake,7,7.1,0.059,80,reviewed,us,us
+2017-08-09T09:05:13.330Z,14.4507,-92.6844,41.2,4.1,mb,,169,0.961,0.83,us,us2000a6au,2017-10-25T00:38:04.040Z,"near the coast of Chiapas, Mexico",earthquake,5.9,12.6,0.08,42,reviewed,us,us

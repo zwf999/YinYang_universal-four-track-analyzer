@@ -1,0 +1,8 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2004-12-24T20:38:09.510Z,4.568,94.206,30,4.3,mb,9,204.8,,0.44,us,usp000dbch,2014-11-07T01:24:21.405Z,"164 km SW of Banda Aceh, Indonesia",earthquake,,,,2,reviewed,us,us
+2004-12-20T02:05:53.940Z,2.585,97.186,66.2,4.4,mb,17,177.2,,0.72,us,usp000db2b,2014-11-07T01:24:19.640Z,"74 km WNW of Singkil, Indonesia",earthquake,,30.3,,1,reviewed,us,us
+2004-12-13T18:52:06.230Z,2.943,98.851,176.4,4.4,mb,30,156,,0.89,us,usp000damn,2014-11-07T01:24:16.490Z,"24 km W of Pematangsiantar, Indonesia",earthquake,,,,13,reviewed,us,us
+2004-12-11T16:45:23.100Z,4.911,93.993,15.1,5.1,mb,19,73,,1,us,usp000dafz,2014-11-07T01:24:15.827Z,"164 km WSW of Banda Aceh, Indonesia",earthquake,,52.2,,5,reviewed,us,us
+2004-12-09T07:10:28.070Z,4.998,95.844,15,4.1,mb,8,201.8,,1.37,us,usp000dabs,2014-11-07T01:24:15.267Z,"44 km SSW of Sigli, Indonesia",earthquake,,0,,4,reviewed,us,us
+2004-12-03T01:01:27.280Z,1.461,97.638,36.2,4.3,mb,16,203.3,,0.88,us,usp000d9vf,2014-11-07T01:24:12.498Z,"92 km S of Singkil, Indonesia",earthquake,,,,6,reviewed,us,us
+2004-11-27T22:42:35.320Z,1.983,97.925,41.6,5.4,mwc,216,42.9,,0.98,us,usp000d9ef,2022-05-02T17:35:15.317Z,"36 km SSE of Singkil, Indonesia",earthquake,,,,,reviewed,us,hrv

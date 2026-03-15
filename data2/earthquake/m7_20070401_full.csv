@@ -1,0 +1,20 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2007-04-01T20:23:08.070Z,-8.371,156.851,10,4.5,mb,33,69.6,,0.98,us,usp000f83k,2014-11-07T01:32:01.847Z,"29 km S of Gizo, Solomon Islands",earthquake,,,,7,reviewed,us,us
+2007-04-01T18:36:42.610Z,-8.434,156.834,10,4.2,mb,8,141.3,,0.89,us,usp000f836,2014-11-07T01:32:01.734Z,"36 km S of Gizo, Solomon Islands",earthquake,,,,1,reviewed,us,us
+2007-04-01T14:56:14.090Z,-8.406,156.839,10,4.8,mb,17,58.9,,1.11,us,usp000f82e,2014-11-07T01:32:01.501Z,"33 km S of Gizo, Solomon Islands",earthquake,,,,3,reviewed,us,us
+2007-03-31T14:54:09.780Z,-6.81,154.375,43.7,4.6,mb,21,92,,0.99,us,usp000f7zz,2014-11-07T01:31:58.495Z,"134 km WSW of Panguna, Papua New Guinea",earthquake,,,,7,reviewed,us,us
+2007-03-30T18:23:33.010Z,-7.549,154.804,10,4.5,mb,26,58.9,,0.84,us,usp000f7wa,2014-11-07T01:31:58.109Z,"155 km SSW of Panguna, Papua New Guinea",earthquake,,,,8,reviewed,us,us
+2007-03-27T05:44:18.910Z,-8.213,157.07,35,4.4,mb,8,85.4,,1.14,us,usp000f7km,2014-11-07T01:31:56.749Z,"27 km ESE of Gizo, Solomon Islands",earthquake,,,,3,reviewed,us,us
+2007-03-27T02:15:32.580Z,-8.201,156.956,35,4.2,mb,15,66.2,,1.16,us,usp000f7k2,2014-11-07T01:31:56.699Z,"16 km SE of Gizo, Solomon Islands",earthquake,,,,2,reviewed,us,us
+2007-03-26T17:24:03.690Z,-8.085,156.92,10,4.1,mb,10,94.7,,1.54,us,usp000f7hj,2014-11-07T01:31:56.280Z,"8 km ENE of Gizo, Solomon Islands",earthquake,,,,2,reviewed,us,us
+2007-03-26T10:38:43.830Z,-8.283,156.989,10,5.3,mwc,94,29.2,,1.02,us,usp000f7gc,2022-05-02T20:04:51.952Z,"25 km SE of Gizo, Solomon Islands",earthquake,,,,,reviewed,us,gcmt
+2007-03-24T23:05:02.770Z,-6.818,154.492,35,4.7,mb,25,92.2,,0.78,us,usp000f7ay,2014-11-07T01:31:55.368Z,"123 km WSW of Panguna, Papua New Guinea",earthquake,,,,5,reviewed,us,us
+2007-03-23T02:05:17.170Z,-9.54,159.167,10,4.5,mb,17,57.3,,0.56,us,usp000f76y,2014-11-07T01:31:54.810Z,"62 km WNW of Malango, Solomon Islands",earthquake,,,,5,reviewed,us,us
+2007-03-22T23:51:15.550Z,-6.491,154.651,35,4.6,mb,34,67.8,,1.08,us,usp000f76t,2014-11-07T01:31:54.798Z,"94 km WSW of Panguna, Papua New Guinea",earthquake,,,,10,reviewed,us,us
+2007-03-22T23:15:00.340Z,-6.584,154.648,35,4.3,mb,18,67,,1.09,us,usp000f76s,2014-11-07T01:31:54.796Z,"97 km WSW of Panguna, Papua New Guinea",earthquake,,,,2,reviewed,us,us
+2007-03-22T23:06:14.950Z,-6.565,154.661,38.4,4.4,mb,27,67.2,,0.7,us,usp000f76r,2014-11-07T01:31:54.794Z,"95 km WSW of Panguna, Papua New Guinea",earthquake,,13.2,,9,reviewed,us,us
+2007-03-22T10:45:43.610Z,-7.327,156.039,30.1,4.5,mb,13,151.8,,0.6,us,usp000f75u,2014-11-07T01:31:54.682Z,"123 km NW of Gizo, Solomon Islands",earthquake,,,,5,reviewed,us,us
+2007-03-18T04:19:12.650Z,-6.633,154.52,93.9,4.4,mb,18,158.5,,1.12,us,usp000f6x4,2014-11-07T01:31:53.697Z,"112 km WSW of Panguna, Papua New Guinea",earthquake,,23.2,,7,reviewed,us,us
+2007-03-11T05:17:03.700Z,-9.746,159.457,10,3.8,mb,8,172.4,,0.81,us,usp000f6fu,2014-11-07T01:31:51.260Z,"29 km W of Malango, Solomon Islands",earthquake,,,,1,reviewed,us,us
+2007-03-03T07:16:09.770Z,-7.386,156.535,101.5,4.5,mb,10,264.1,,0.64,us,usp000f5zj,2014-11-07T01:31:47.860Z,"Solomon Islands",earthquake,,54.3,,1,reviewed,us,us
+2007-03-03T04:16:53.190Z,-6.942,154.918,10,4.1,mb,11,237.6,,1.7,us,usp000f5z6,2014-11-07T01:31:47.814Z,"93 km SW of Panguna, Papua New Guinea",earthquake,,,,1,reviewed,us,us

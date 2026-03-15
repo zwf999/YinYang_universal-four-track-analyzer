@@ -1,0 +1,11 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2026-03-06T14:27:47.626Z,-11.5475,163.1628,8.682,6.3,mww,51,45,3.793,0.93,us,us7000s2i2,2026-03-07T14:55:34.181Z,"181 km SE of Kirakira, Solomon Islands",earthquake,3.71,5.154,0.047,44,reviewed,us,us
+2026-03-05T11:30:09.010Z,32.038,-93.4147,11.086,4.9,mwr,164,54,0.731,0.76,us,us7000s27e,2026-03-08T01:06:15.379Z,"2026 Red River Parish, Louisiana Earthquake",earthquake,2.5,4.327,0.044,50,reviewed,us,us
+2026-03-04T17:54:36.733Z,52.2664,176.3634,10,6.4,mww,115,50,1.359,0.88,us,us7000s211,2026-03-07T18:04:51.509Z,"224 km ESE of Attu Station, Alaska",earthquake,5.15,1.82,0.03,104,reviewed,us,us
+2026-03-01T18:59:27.640Z,40.1754,-98.3799,3.036,4.1,mwr,52,50,1.244,0.73,us,us7000s1a2,2026-03-07T19:09:38.830Z,"5 km E of Cowles, Nebraska",earthquake,3.14,6.118,0.058,29,reviewed,us,us
+2026-03-01T05:44:43.017Z,-21.9023,-179.4431,596.319,6.3,mww,83,24,4.76,0.89,us,us7000s16b,2026-03-02T06:08:39.036Z,"Fiji region",earthquake,10.49,7.418,0.051,37,reviewed,us,us
+2026-02-27T07:52:24.828Z,22.4513,89.1394,9.751,5.3,mb,69,72,5.509,0.87,us,us7000s0pc,2026-03-06T22:36:33.630Z,"26 km SE of Tāki, India",earthquake,8.86,4.198,0.069,70,reviewed,us,us
+2026-02-22T16:57:46.240Z,6.8285,116.2637,619.849,7.1,mww,68,35,5.931,0.54,us,us6000sasz,2026-02-25T17:00:54.215Z,"55 km NNW of Kota Belud, Malaysia",earthquake,8.39,9.211,0.055,32,reviewed,us,us
+2026-02-14T02:27:42.554Z,-14.9918,166.6216,43,6.4,mww,119,22,0.721,0.81,us,us6000s94q,2026-02-28T23:36:33.772Z,"48 km W of Port-Olry, Vanuatu",earthquake,7.39,1.883,0.05,39,reviewed,us,us
+2026-02-12T13:34:30.696Z,-30.7798,-71.4214,40.207,6.2,mww,102,76,0.212,1.07,us,us6000s8gw,2026-03-07T20:37:38.988Z,"29 km SW of Ovalle, Chile",earthquake,4.47,4.151,0.056,31,reviewed,us,us
+2026-02-10T20:42:22.931Z,61.697,-149.633,30,4.6,ml,200,23,0.2,1.2,ak,ak2026cxafty,2026-02-25T22:59:30.338Z,"8 km NNW of Meadow Lakes, Alaska",earthquake,1.5,1.8097,0.3,126,reviewed,ak,ak

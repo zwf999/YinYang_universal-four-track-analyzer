@@ -1,0 +1,4 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2019-05-18T03:55:39.611Z,-4.7728,-74.9872,35,4.5,mb,,88,3.711,1.1,us,us70003mxi,2019-08-07T22:03:47.040Z,"91 km ENE of Lagunas, Peru",earthquake,8.1,2,0.102,31,reviewed,us,us
+2019-05-12T15:19:25.770Z,-8.0047,-76.0263,121.11,4.4,mb,,99,2.501,0.71,us,us70003njt,2019-08-01T17:15:24.040Z,"58 km ENE of Tocache, Peru",earthquake,8.5,7.5,0.073,54,reviewed,us,us
+2019-05-02T11:06:08.573Z,-5.2425,-77.2531,31.79,4.5,mb,,146,4.651,0.6,us,us70003fmr,2019-07-25T18:54:08.040Z,"78 km SW of Barranca, Peru",earthquake,7.2,7.2,0.064,71,reviewed,us,us

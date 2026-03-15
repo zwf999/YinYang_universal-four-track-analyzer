@@ -1,0 +1,6 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2007-09-08T00:35:23.170Z,-2.301,101.999,167.5,4.3,mb,34,84.1,,0.75,us,usp000fmnu,2014-11-07T01:33:31.672Z,"72 km ESE of Sungai Penuh, Indonesia",earthquake,,23.3,,3,reviewed,us,us
+2007-09-07T23:56:23.360Z,-7.141,103.279,30.4,5.1,mb,74,47,,0.89,us,usp000fmnr,2014-11-07T01:33:31.659Z,"289 km SW of Bandar Lampung, Indonesia",earthquake,,,,23,reviewed,us,us
+2007-09-05T14:19:13.730Z,-4.795,102.387,30,4,mb,13,192.2,,0.64,us,usp000fmgg,2014-11-07T01:33:30.679Z,"110 km S of Bengkulu, Indonesia",earthquake,,,,1,reviewed,us,us
+2007-08-26T15:27:27.410Z,-4.509,102.019,15,4,mb,10,211.7,,0.32,us,usp000fkrb,2014-11-07T01:33:23.217Z,"82 km SSW of Bengkulu, Indonesia",earthquake,,0,,1,reviewed,us,us
+2007-08-19T15:42:22.840Z,-4.856,102.722,30,3.8,mb,12,207.7,,0.55,us,usp000fk6w,2014-11-07T01:33:19.392Z,"108 km SSW of Pagar Alam, Indonesia",earthquake,,,,2,reviewed,us,us

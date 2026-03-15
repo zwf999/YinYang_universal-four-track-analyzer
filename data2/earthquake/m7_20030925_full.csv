@@ -1,0 +1,10 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2003-09-24T19:24:32.350Z,43.792,142.861,192.5,4.1,mb,13,135.4,,0.57,us,usp000c8h4,2014-11-07T01:19:55.730Z,"8 km SE of Kamikawa, Japan",earthquake,,8.3,,6,reviewed,us,us
+2003-09-23T13:41:13.890Z,41.917,144.993,33,4.8,mb,54,134.8,,0.8,us,usp000c8dp,2014-11-07T01:19:54.748Z,"128 km SSE of Kushiro, Japan",earthquake,,,,13,reviewed,us,us
+2003-09-21T21:47:02.300Z,40.512,141.626,103.4,4.4,mb,50,124.6,,1.06,us,usp000c88m,2014-11-07T01:19:54.044Z,"10 km E of Hachinohe, Japan",earthquake,,,,14,reviewed,us,us
+2003-09-20T09:31:39.500Z,41.434,142.836,69.7,4.6,mb,38,127.8,,0.85,us,usp000c82x,2014-11-07T01:19:52.543Z,"107 km SSE of Shizunai-furukawach?, Japan",earthquake,,,,7,reviewed,us,us
+2003-09-11T15:21:28.070Z,43.176,146.872,33,4.4,mb,42,133.9,,0.95,us,usp000c794,2014-11-07T01:19:48.007Z,"70 km S of Shikotan, Russia",earthquake,,,,16,reviewed,us,us
+2003-09-10T19:31:54.710Z,42.647,143.907,90.6,4.8,mb,166,114.9,,0.84,us,usp000c77k,2014-11-07T01:19:47.861Z,"52 km SW of Kushiro, Japan",earthquake,,,,85,reviewed,us,us
+2003-09-08T16:22:58.190Z,42.238,142.52,73.3,4.3,mb,21,141.7,,0.73,us,usp000c72u,2014-11-07T01:19:47.405Z,"16 km SE of Shizunai-furukawach?, Japan",earthquake,,9.7,,3,reviewed,us,us
+2003-08-30T10:06:39.970Z,41.864,142.552,51.9,5.5,mwb,320,104.7,,0.79,us,usp000c69a,2022-05-02T16:42:11.349Z,"54 km SSE of Shizunai-furukawach?, Japan",earthquake,,,,,reviewed,us,us
+2003-08-30T00:30:59.400Z,42.914,145.292,40.7,4.6,mb,37,134.7,,1.12,us,usp000c685,2014-11-07T01:19:36.809Z,"51 km SSW of Nemuro, Japan",earthquake,,,,6,reviewed,us,us

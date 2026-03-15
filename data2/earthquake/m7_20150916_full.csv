@@ -1,0 +1,12 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2015-09-15T15:28:57.310Z,-33.756,-72.0385,17.59,4.4,mb,,143,0.367,0.83,us,us20003jm7,2015-12-12T00:42:53.040Z,"43 km WSW of San Antonio, Chile",earthquake,3.6,4.4,0.154,12,reviewed,us,us
+2015-09-14T03:19:40.000Z,-29.821,-71.197,64.5,4,mb,,,,1.35,us,us20003j8r,2015-12-12T00:42:51.040Z,"10 km NNE of La Serena, Chile",earthquake,4.1,6.8,0.366,2,reviewed,guc,us
+2015-09-09T18:00:10.000Z,-32.984,-70.477,15.1,4.2,mb,,,,1.24,us,us20003hkr,2022-08-01T04:13:22.693Z,"20 km SE of Los Andes, Chile",earthquake,2.8,4,0.216,6,reviewed,guc,us
+2015-09-04T01:42:18.000Z,-33.829,-70.412,106.3,4.3,mb,,,,0.6,us,us20003g6r,2015-12-05T01:40:25.040Z,"28 km SSE of Puente Alto, Chile",earthquake,6.5,5.3,0.189,8,reviewed,guc,us
+2015-09-02T00:22:37.690Z,-33.6907,-72.3532,35.33,4.3,mwr,,59,0.617,0.96,us,us20003fk2,2022-08-01T03:08:33.287Z,"69 km W of San Antonio, Chile",earthquake,4.4,5.3,0.052,35,reviewed,us,us
+2015-08-31T03:14:07.460Z,-33.0862,-69.4442,10,4.1,mb,,55,0.984,1.45,us,us1000368l,2015-12-01T00:36:05.040Z,"61 km WSW of Mendoza, Argentina",earthquake,3.1,1.8,0.197,7,reviewed,us,us
+2015-08-26T23:49:19.450Z,-29.7014,-71.4158,51.14,4.3,mb,,135,0.265,1.24,us,us1000356x,2022-08-01T02:03:34.010Z,"27 km NW of La Serena, Chile",earthquake,5.7,5,0.266,4,reviewed,us,us
+2015-08-25T06:16:39.040Z,-29.663,-71.4373,52,4.5,mb,,88,0.307,1.32,us,us100034ns,2015-11-24T02:09:34.040Z,"32 km NW of La Serena, Chile",earthquake,5.4,6.1,0.066,68,reviewed,us,us
+2015-08-24T05:13:49.000Z,-29.882,-71.252,44.7,4.8,mb,,,,1.09,us,us100034f1,2022-08-01T01:33:33.795Z,"2 km N of La Serena, Chile",earthquake,4.8,3.6,0.04,189,reviewed,guc,us
+2015-08-24T02:42:48.000Z,-29.844,-71.239,44.9,4.2,mb,,,,1,us,us100034eh,2022-08-01T01:30:41.542Z,"6 km N of La Serena, Chile",earthquake,6.8,5.1,0.153,12,reviewed,guc,us
+2015-08-23T23:10:04.420Z,-29.7191,-71.2958,31.11,5.7,mww,,33,0.205,1.01,us,us100034du,2022-05-03T17:29:01.676Z,"21 km NNW of La Serena, Chile",earthquake,4.5,2.9,,,reviewed,us,us
